@@ -1,0 +1,2916 @@
+9.7539 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+83.4025 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1366, 768]. Using actual size
+85.2289 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001491FE3BE80>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000014920376820>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+85.2290 	EXP 	window1: mouseVisible = True
+85.2292 	EXP 	window1: mouseVisible = False
+85.2292 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+85.2292 	EXP 	window1: recordFrameIntervals = False
+85.3949 	EXP 	window1: recordFrameIntervals = True
+85.5787 	EXP 	Screen (0) actual frame rate measured at 60.00Hz
+85.5787 	EXP 	window1: recordFrameIntervals = False
+92.5590 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+92.5611 	EXP 	Created Line_1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Line_1', opacity=1.0, ori=90.0, pos=array([-150.,    0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+92.5634 	EXP 	Created Line_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Line_2', opacity=1.0, ori=90.0, pos=array([-50.,   0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+92.5655 	EXP 	Created Line_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Line_3', opacity=1.0, ori=90.0, pos=array([50.,  0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+92.5675 	EXP 	Created Line_4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Line_4', opacity=1.0, ori=90.0, pos=array([150.,   0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+92.5696 	EXP 	Created probe = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='probe', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+92.5721 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+92.5741 	EXP 	Created Line_1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Line_1', opacity=1.0, ori=90.0, pos=array([-150.,    0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+92.5764 	EXP 	Created Line_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Line_2', opacity=1.0, ori=90.0, pos=array([-50.,   0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+92.5786 	EXP 	Created Line_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Line_3', opacity=1.0, ori=90.0, pos=array([50.,  0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+92.5807 	EXP 	Created Line_4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Line_4', opacity=1.0, ori=90.0, pos=array([150.,   0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+92.5828 	EXP 	Created probe = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='probe', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+92.5889 	EXP 	Imported C:/Users/Dell 3148/Desktop/Data 2/Sequence condition.csv as conditions, 4 conditions, 2 params
+92.5900 	EXP 	Created sequence: random, trialTypes=4, nReps=24, seed=None
+92.5906 	EXP 	New trial (rep=0, index=0): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+92.5945 	DATA 	Keypress: z
+92.6035 	EXP 	polygon: autoDraw = True
+93.5974 	EXP 	Line_1: autoDraw = True
+93.5974 	EXP 	Line_2: autoDraw = True
+93.5974 	EXP 	Line_3: autoDraw = True
+93.5974 	EXP 	Line_4: autoDraw = True
+93.6139 	EXP 	polygon: autoDraw = False
+94.5976 	EXP 	probe: autoDraw = True
+95.4838 	EXP 	New trial (rep=0, index=1): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+95.4856 	DATA 	Keypress: y
+95.4997 	EXP 	polygon: autoDraw = False
+95.4997 	EXP 	Line_1: autoDraw = False
+95.4997 	EXP 	Line_2: autoDraw = False
+95.4997 	EXP 	Line_3: autoDraw = False
+95.4997 	EXP 	Line_4: autoDraw = False
+95.4997 	EXP 	probe: autoDraw = False
+95.4997 	EXP 	polygon: autoDraw = True
+96.4981 	EXP 	Line_1: autoDraw = True
+96.4981 	EXP 	Line_2: autoDraw = True
+96.4981 	EXP 	Line_3: autoDraw = True
+96.4981 	EXP 	Line_4: autoDraw = True
+96.5151 	EXP 	polygon: autoDraw = False
+97.4984 	EXP 	probe: autoDraw = True
+98.0509 	EXP 	New trial (rep=0, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+98.0527 	DATA 	Keypress: x
+98.0654 	EXP 	polygon: autoDraw = False
+98.0654 	EXP 	Line_1: autoDraw = False
+98.0654 	EXP 	Line_2: autoDraw = False
+98.0654 	EXP 	Line_3: autoDraw = False
+98.0654 	EXP 	Line_4: autoDraw = False
+98.0654 	EXP 	probe: autoDraw = False
+98.0654 	EXP 	polygon: autoDraw = True
+99.0656 	EXP 	polygon: autoDraw = False
+99.0656 	EXP 	Line_1: autoDraw = True
+99.0656 	EXP 	Line_2: autoDraw = True
+99.0656 	EXP 	Line_3: autoDraw = True
+99.0656 	EXP 	Line_4: autoDraw = True
+100.0660 	EXP 	probe: autoDraw = True
+100.5185 	EXP 	New trial (rep=0, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+100.5203 	DATA 	Keypress: z
+100.5328 	EXP 	polygon: autoDraw = False
+100.5328 	EXP 	Line_1: autoDraw = False
+100.5328 	EXP 	Line_2: autoDraw = False
+100.5328 	EXP 	Line_3: autoDraw = False
+100.5328 	EXP 	Line_4: autoDraw = False
+100.5328 	EXP 	probe: autoDraw = False
+100.5328 	EXP 	polygon: autoDraw = True
+101.5330 	EXP 	polygon: autoDraw = False
+101.5330 	EXP 	Line_1: autoDraw = True
+101.5330 	EXP 	Line_2: autoDraw = True
+101.5330 	EXP 	Line_3: autoDraw = True
+101.5330 	EXP 	Line_4: autoDraw = True
+102.5332 	EXP 	probe: autoDraw = True
+103.3360 	EXP 	New trial (rep=1, index=0): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+103.3378 	DATA 	Keypress: c
+103.3503 	EXP 	polygon: autoDraw = False
+103.3503 	EXP 	Line_1: autoDraw = False
+103.3503 	EXP 	Line_2: autoDraw = False
+103.3503 	EXP 	Line_3: autoDraw = False
+103.3503 	EXP 	Line_4: autoDraw = False
+103.3503 	EXP 	probe: autoDraw = False
+103.3503 	EXP 	polygon: autoDraw = True
+104.3506 	EXP 	polygon: autoDraw = False
+104.3506 	EXP 	Line_1: autoDraw = True
+104.3506 	EXP 	Line_2: autoDraw = True
+104.3506 	EXP 	Line_3: autoDraw = True
+104.3506 	EXP 	Line_4: autoDraw = True
+105.3508 	EXP 	probe: autoDraw = True
+105.7035 	EXP 	New trial (rep=1, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+105.7053 	DATA 	Keypress: z
+105.7176 	EXP 	polygon: autoDraw = False
+105.7176 	EXP 	Line_1: autoDraw = False
+105.7176 	EXP 	Line_2: autoDraw = False
+105.7176 	EXP 	Line_3: autoDraw = False
+105.7176 	EXP 	Line_4: autoDraw = False
+105.7176 	EXP 	probe: autoDraw = False
+105.7176 	EXP 	polygon: autoDraw = True
+106.7179 	EXP 	polygon: autoDraw = False
+106.7179 	EXP 	Line_1: autoDraw = True
+106.7179 	EXP 	Line_2: autoDraw = True
+106.7179 	EXP 	Line_3: autoDraw = True
+106.7179 	EXP 	Line_4: autoDraw = True
+107.7183 	EXP 	probe: autoDraw = True
+108.3046 	EXP 	New trial (rep=1, index=2): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+108.3066 	DATA 	Keypress: c
+108.3186 	EXP 	polygon: autoDraw = False
+108.3186 	EXP 	Line_1: autoDraw = False
+108.3186 	EXP 	Line_2: autoDraw = False
+108.3186 	EXP 	Line_3: autoDraw = False
+108.3186 	EXP 	Line_4: autoDraw = False
+108.3186 	EXP 	probe: autoDraw = False
+108.3186 	EXP 	polygon: autoDraw = True
+109.3186 	EXP 	polygon: autoDraw = False
+109.3186 	EXP 	Line_1: autoDraw = True
+109.3186 	EXP 	Line_2: autoDraw = True
+109.3186 	EXP 	Line_3: autoDraw = True
+109.3186 	EXP 	Line_4: autoDraw = True
+110.3190 	EXP 	probe: autoDraw = True
+110.8881 	EXP 	New trial (rep=1, index=3): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+110.8899 	DATA 	Keypress: y
+110.9024 	EXP 	polygon: autoDraw = False
+110.9024 	EXP 	Line_1: autoDraw = False
+110.9024 	EXP 	Line_2: autoDraw = False
+110.9024 	EXP 	Line_3: autoDraw = False
+110.9024 	EXP 	Line_4: autoDraw = False
+110.9024 	EXP 	probe: autoDraw = False
+110.9024 	EXP 	polygon: autoDraw = True
+111.9028 	EXP 	polygon: autoDraw = False
+111.9028 	EXP 	Line_1: autoDraw = True
+111.9028 	EXP 	Line_2: autoDraw = True
+111.9028 	EXP 	Line_3: autoDraw = True
+111.9028 	EXP 	Line_4: autoDraw = True
+112.9031 	EXP 	probe: autoDraw = True
+113.3721 	EXP 	New trial (rep=2, index=0): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+113.3739 	DATA 	Keypress: x
+113.3868 	EXP 	polygon: autoDraw = False
+113.3868 	EXP 	Line_1: autoDraw = False
+113.3868 	EXP 	Line_2: autoDraw = False
+113.3868 	EXP 	Line_3: autoDraw = False
+113.3868 	EXP 	Line_4: autoDraw = False
+113.3868 	EXP 	probe: autoDraw = False
+113.3868 	EXP 	polygon: autoDraw = True
+114.3869 	EXP 	polygon: autoDraw = False
+114.3869 	EXP 	Line_1: autoDraw = True
+114.3869 	EXP 	Line_2: autoDraw = True
+114.3869 	EXP 	Line_3: autoDraw = True
+114.3869 	EXP 	Line_4: autoDraw = True
+115.3875 	EXP 	probe: autoDraw = True
+115.7893 	EXP 	New trial (rep=2, index=1): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+115.7912 	DATA 	Keypress: y
+115.8038 	EXP 	polygon: autoDraw = False
+115.8038 	EXP 	Line_1: autoDraw = False
+115.8038 	EXP 	Line_2: autoDraw = False
+115.8038 	EXP 	Line_3: autoDraw = False
+115.8038 	EXP 	Line_4: autoDraw = False
+115.8038 	EXP 	probe: autoDraw = False
+115.8038 	EXP 	polygon: autoDraw = True
+116.7885 	EXP 	Line_1: autoDraw = True
+116.7885 	EXP 	Line_2: autoDraw = True
+116.7885 	EXP 	Line_3: autoDraw = True
+116.7885 	EXP 	Line_4: autoDraw = True
+116.8047 	EXP 	polygon: autoDraw = False
+117.8046 	EXP 	probe: autoDraw = True
+118.1238 	EXP 	New trial (rep=2, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+118.1256 	DATA 	Keypress: x
+118.1384 	EXP 	polygon: autoDraw = False
+118.1384 	EXP 	Line_1: autoDraw = False
+118.1384 	EXP 	Line_2: autoDraw = False
+118.1384 	EXP 	Line_3: autoDraw = False
+118.1384 	EXP 	Line_4: autoDraw = False
+118.1384 	EXP 	probe: autoDraw = False
+118.1384 	EXP 	polygon: autoDraw = True
+119.1383 	EXP 	polygon: autoDraw = False
+119.1383 	EXP 	Line_1: autoDraw = True
+119.1383 	EXP 	Line_2: autoDraw = True
+119.1383 	EXP 	Line_3: autoDraw = True
+119.1383 	EXP 	Line_4: autoDraw = True
+120.1385 	EXP 	probe: autoDraw = True
+120.4578 	EXP 	New trial (rep=2, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+120.4596 	DATA 	Keypress: z
+120.4720 	EXP 	polygon: autoDraw = False
+120.4720 	EXP 	Line_1: autoDraw = False
+120.4720 	EXP 	Line_2: autoDraw = False
+120.4720 	EXP 	Line_3: autoDraw = False
+120.4720 	EXP 	Line_4: autoDraw = False
+120.4720 	EXP 	probe: autoDraw = False
+120.4720 	EXP 	polygon: autoDraw = True
+121.4724 	EXP 	polygon: autoDraw = False
+121.4724 	EXP 	Line_1: autoDraw = True
+121.4724 	EXP 	Line_2: autoDraw = True
+121.4724 	EXP 	Line_3: autoDraw = True
+121.4724 	EXP 	Line_4: autoDraw = True
+122.4727 	EXP 	probe: autoDraw = True
+122.9252 	EXP 	New trial (rep=3, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+122.9269 	DATA 	Keypress: y
+122.9394 	EXP 	polygon: autoDraw = False
+122.9394 	EXP 	Line_1: autoDraw = False
+122.9394 	EXP 	Line_2: autoDraw = False
+122.9394 	EXP 	Line_3: autoDraw = False
+122.9394 	EXP 	Line_4: autoDraw = False
+122.9394 	EXP 	probe: autoDraw = False
+122.9394 	EXP 	polygon: autoDraw = True
+123.9396 	EXP 	polygon: autoDraw = False
+123.9396 	EXP 	Line_1: autoDraw = True
+123.9396 	EXP 	Line_2: autoDraw = True
+123.9396 	EXP 	Line_3: autoDraw = True
+123.9396 	EXP 	Line_4: autoDraw = True
+124.9401 	EXP 	probe: autoDraw = True
+125.3758 	EXP 	New trial (rep=3, index=1): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+125.3776 	DATA 	Keypress: x
+125.3904 	EXP 	polygon: autoDraw = False
+125.3904 	EXP 	Line_1: autoDraw = False
+125.3904 	EXP 	Line_2: autoDraw = False
+125.3904 	EXP 	Line_3: autoDraw = False
+125.3904 	EXP 	Line_4: autoDraw = False
+125.3904 	EXP 	probe: autoDraw = False
+125.3904 	EXP 	polygon: autoDraw = True
+126.3904 	EXP 	polygon: autoDraw = False
+126.3904 	EXP 	Line_1: autoDraw = True
+126.3904 	EXP 	Line_2: autoDraw = True
+126.3904 	EXP 	Line_3: autoDraw = True
+126.3904 	EXP 	Line_4: autoDraw = True
+127.3909 	EXP 	probe: autoDraw = True
+127.7098 	EXP 	New trial (rep=3, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+127.7116 	DATA 	Keypress: z
+127.7243 	EXP 	polygon: autoDraw = False
+127.7243 	EXP 	Line_1: autoDraw = False
+127.7243 	EXP 	Line_2: autoDraw = False
+127.7243 	EXP 	Line_3: autoDraw = False
+127.7243 	EXP 	Line_4: autoDraw = False
+127.7243 	EXP 	probe: autoDraw = False
+127.7243 	EXP 	polygon: autoDraw = True
+128.7246 	EXP 	polygon: autoDraw = False
+128.7246 	EXP 	Line_1: autoDraw = True
+128.7246 	EXP 	Line_2: autoDraw = True
+128.7246 	EXP 	Line_3: autoDraw = True
+128.7246 	EXP 	Line_4: autoDraw = True
+129.7253 	EXP 	probe: autoDraw = True
+130.1271 	EXP 	New trial (rep=3, index=3): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+130.1289 	DATA 	Keypress: c
+130.1416 	EXP 	polygon: autoDraw = False
+130.1416 	EXP 	Line_1: autoDraw = False
+130.1416 	EXP 	Line_2: autoDraw = False
+130.1416 	EXP 	Line_3: autoDraw = False
+130.1416 	EXP 	Line_4: autoDraw = False
+130.1416 	EXP 	probe: autoDraw = False
+130.1416 	EXP 	polygon: autoDraw = True
+131.1421 	EXP 	polygon: autoDraw = False
+131.1421 	EXP 	Line_1: autoDraw = True
+131.1421 	EXP 	Line_2: autoDraw = True
+131.1421 	EXP 	Line_3: autoDraw = True
+131.1421 	EXP 	Line_4: autoDraw = True
+132.1422 	EXP 	probe: autoDraw = True
+132.5947 	EXP 	New trial (rep=4, index=0): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+132.5965 	DATA 	Keypress: y
+132.6091 	EXP 	polygon: autoDraw = False
+132.6091 	EXP 	Line_1: autoDraw = False
+132.6091 	EXP 	Line_2: autoDraw = False
+132.6091 	EXP 	Line_3: autoDraw = False
+132.6091 	EXP 	Line_4: autoDraw = False
+132.6091 	EXP 	probe: autoDraw = False
+132.6091 	EXP 	polygon: autoDraw = True
+133.6100 	EXP 	polygon: autoDraw = False
+133.6100 	EXP 	Line_1: autoDraw = True
+133.6100 	EXP 	Line_2: autoDraw = True
+133.6100 	EXP 	Line_3: autoDraw = True
+133.6100 	EXP 	Line_4: autoDraw = True
+134.6097 	EXP 	probe: autoDraw = True
+134.7451 	EXP 	New trial (rep=4, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+134.7469 	DATA 	Keypress: x
+134.7596 	EXP 	polygon: autoDraw = False
+134.7596 	EXP 	Line_1: autoDraw = False
+134.7596 	EXP 	Line_2: autoDraw = False
+134.7596 	EXP 	Line_3: autoDraw = False
+134.7596 	EXP 	Line_4: autoDraw = False
+134.7596 	EXP 	probe: autoDraw = False
+134.7596 	EXP 	polygon: autoDraw = True
+135.7604 	EXP 	polygon: autoDraw = False
+135.7604 	EXP 	Line_1: autoDraw = True
+135.7604 	EXP 	Line_2: autoDraw = True
+135.7604 	EXP 	Line_3: autoDraw = True
+135.7604 	EXP 	Line_4: autoDraw = True
+136.7439 	EXP 	probe: autoDraw = True
+137.1139 	EXP 	New trial (rep=4, index=2): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+137.1160 	DATA 	Keypress: y
+137.1273 	EXP 	polygon: autoDraw = False
+137.1273 	EXP 	Line_1: autoDraw = False
+137.1273 	EXP 	Line_2: autoDraw = False
+137.1273 	EXP 	Line_3: autoDraw = False
+137.1273 	EXP 	Line_4: autoDraw = False
+137.1273 	EXP 	probe: autoDraw = False
+137.1273 	EXP 	polygon: autoDraw = True
+138.1274 	EXP 	polygon: autoDraw = False
+138.1274 	EXP 	Line_1: autoDraw = True
+138.1274 	EXP 	Line_2: autoDraw = True
+138.1274 	EXP 	Line_3: autoDraw = True
+138.1274 	EXP 	Line_4: autoDraw = True
+139.1276 	EXP 	probe: autoDraw = True
+139.7634 	EXP 	New trial (rep=4, index=3): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+139.7652 	DATA 	Keypress: y
+139.7778 	EXP 	polygon: autoDraw = False
+139.7778 	EXP 	Line_1: autoDraw = False
+139.7778 	EXP 	Line_2: autoDraw = False
+139.7778 	EXP 	Line_3: autoDraw = False
+139.7778 	EXP 	Line_4: autoDraw = False
+139.7778 	EXP 	probe: autoDraw = False
+139.7778 	EXP 	polygon: autoDraw = True
+140.7782 	EXP 	polygon: autoDraw = False
+140.7782 	EXP 	Line_1: autoDraw = True
+140.7782 	EXP 	Line_2: autoDraw = True
+140.7782 	EXP 	Line_3: autoDraw = True
+140.7782 	EXP 	Line_4: autoDraw = True
+141.7787 	EXP 	probe: autoDraw = True
+142.2809 	EXP 	New trial (rep=5, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+142.2827 	DATA 	Keypress: x
+142.2954 	EXP 	polygon: autoDraw = False
+142.2954 	EXP 	Line_1: autoDraw = False
+142.2954 	EXP 	Line_2: autoDraw = False
+142.2954 	EXP 	Line_3: autoDraw = False
+142.2954 	EXP 	Line_4: autoDraw = False
+142.2954 	EXP 	probe: autoDraw = False
+142.2954 	EXP 	polygon: autoDraw = True
+143.2955 	EXP 	polygon: autoDraw = False
+143.2955 	EXP 	Line_1: autoDraw = True
+143.2955 	EXP 	Line_2: autoDraw = True
+143.2955 	EXP 	Line_3: autoDraw = True
+143.2955 	EXP 	Line_4: autoDraw = True
+144.2959 	EXP 	probe: autoDraw = True
+144.6653 	EXP 	New trial (rep=5, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+144.6672 	DATA 	Keypress: x
+144.6793 	EXP 	polygon: autoDraw = False
+144.6793 	EXP 	Line_1: autoDraw = False
+144.6793 	EXP 	Line_2: autoDraw = False
+144.6793 	EXP 	Line_3: autoDraw = False
+144.6793 	EXP 	Line_4: autoDraw = False
+144.6793 	EXP 	probe: autoDraw = False
+144.6793 	EXP 	polygon: autoDraw = True
+145.6797 	EXP 	polygon: autoDraw = False
+145.6797 	EXP 	Line_1: autoDraw = True
+145.6797 	EXP 	Line_2: autoDraw = True
+145.6797 	EXP 	Line_3: autoDraw = True
+145.6797 	EXP 	Line_4: autoDraw = True
+146.6802 	EXP 	probe: autoDraw = True
+147.0996 	EXP 	New trial (rep=5, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+147.1016 	DATA 	Keypress: y
+147.1135 	EXP 	polygon: autoDraw = False
+147.1135 	EXP 	Line_1: autoDraw = False
+147.1135 	EXP 	Line_2: autoDraw = False
+147.1135 	EXP 	Line_3: autoDraw = False
+147.1135 	EXP 	Line_4: autoDraw = False
+147.1135 	EXP 	probe: autoDraw = False
+147.1135 	EXP 	polygon: autoDraw = True
+148.1139 	EXP 	polygon: autoDraw = False
+148.1139 	EXP 	Line_1: autoDraw = True
+148.1139 	EXP 	Line_2: autoDraw = True
+148.1139 	EXP 	Line_3: autoDraw = True
+148.1139 	EXP 	Line_4: autoDraw = True
+149.1140 	EXP 	probe: autoDraw = True
+149.4501 	EXP 	New trial (rep=5, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+149.4519 	DATA 	Keypress: z
+149.4643 	EXP 	polygon: autoDraw = False
+149.4643 	EXP 	Line_1: autoDraw = False
+149.4643 	EXP 	Line_2: autoDraw = False
+149.4643 	EXP 	Line_3: autoDraw = False
+149.4643 	EXP 	Line_4: autoDraw = False
+149.4643 	EXP 	probe: autoDraw = False
+149.4643 	EXP 	polygon: autoDraw = True
+150.4646 	EXP 	polygon: autoDraw = False
+150.4646 	EXP 	Line_1: autoDraw = True
+150.4646 	EXP 	Line_2: autoDraw = True
+150.4646 	EXP 	Line_3: autoDraw = True
+150.4646 	EXP 	Line_4: autoDraw = True
+151.4647 	EXP 	probe: autoDraw = True
+152.1004 	EXP 	New trial (rep=6, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+152.1022 	DATA 	Keypress: c
+152.1151 	EXP 	polygon: autoDraw = False
+152.1151 	EXP 	Line_1: autoDraw = False
+152.1151 	EXP 	Line_2: autoDraw = False
+152.1151 	EXP 	Line_3: autoDraw = False
+152.1151 	EXP 	Line_4: autoDraw = False
+152.1151 	EXP 	probe: autoDraw = False
+152.1151 	EXP 	polygon: autoDraw = True
+153.1152 	EXP 	polygon: autoDraw = False
+153.1152 	EXP 	Line_1: autoDraw = True
+153.1152 	EXP 	Line_2: autoDraw = True
+153.1152 	EXP 	Line_3: autoDraw = True
+153.1152 	EXP 	Line_4: autoDraw = True
+154.1158 	EXP 	probe: autoDraw = True
+154.5179 	EXP 	New trial (rep=6, index=1): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+154.5197 	DATA 	Keypress: x
+154.5321 	EXP 	polygon: autoDraw = False
+154.5321 	EXP 	Line_1: autoDraw = False
+154.5321 	EXP 	Line_2: autoDraw = False
+154.5321 	EXP 	Line_3: autoDraw = False
+154.5321 	EXP 	Line_4: autoDraw = False
+154.5321 	EXP 	probe: autoDraw = False
+154.5321 	EXP 	polygon: autoDraw = True
+155.5326 	EXP 	polygon: autoDraw = False
+155.5326 	EXP 	Line_1: autoDraw = True
+155.5326 	EXP 	Line_2: autoDraw = True
+155.5326 	EXP 	Line_3: autoDraw = True
+155.5326 	EXP 	Line_4: autoDraw = True
+156.5328 	EXP 	probe: autoDraw = True
+157.0367 	DATA 	Keypress: z
+157.0524 	EXP 	New trial (rep=6, index=2): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+157.0666 	EXP 	polygon: autoDraw = False
+157.0666 	EXP 	Line_1: autoDraw = False
+157.0666 	EXP 	Line_2: autoDraw = False
+157.0666 	EXP 	Line_3: autoDraw = False
+157.0666 	EXP 	Line_4: autoDraw = False
+157.0666 	EXP 	probe: autoDraw = False
+157.0666 	EXP 	polygon: autoDraw = True
+158.0667 	EXP 	polygon: autoDraw = False
+158.0667 	EXP 	Line_1: autoDraw = True
+158.0667 	EXP 	Line_2: autoDraw = True
+158.0667 	EXP 	Line_3: autoDraw = True
+158.0667 	EXP 	Line_4: autoDraw = True
+159.0671 	EXP 	probe: autoDraw = True
+159.7373 	DATA 	Keypress: y
+159.7530 	EXP 	New trial (rep=6, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+159.7675 	EXP 	polygon: autoDraw = False
+159.7675 	EXP 	Line_1: autoDraw = False
+159.7675 	EXP 	Line_2: autoDraw = False
+159.7675 	EXP 	Line_3: autoDraw = False
+159.7675 	EXP 	Line_4: autoDraw = False
+159.7675 	EXP 	probe: autoDraw = False
+159.7675 	EXP 	polygon: autoDraw = True
+160.7677 	EXP 	polygon: autoDraw = False
+160.7677 	EXP 	Line_1: autoDraw = True
+160.7677 	EXP 	Line_2: autoDraw = True
+160.7677 	EXP 	Line_3: autoDraw = True
+160.7677 	EXP 	Line_4: autoDraw = True
+161.7514 	EXP 	probe: autoDraw = True
+162.2871 	EXP 	New trial (rep=7, index=0): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+162.2890 	DATA 	Keypress: c
+162.3015 	EXP 	polygon: autoDraw = False
+162.3015 	EXP 	Line_1: autoDraw = False
+162.3015 	EXP 	Line_2: autoDraw = False
+162.3015 	EXP 	Line_3: autoDraw = False
+162.3015 	EXP 	Line_4: autoDraw = False
+162.3015 	EXP 	probe: autoDraw = False
+162.3015 	EXP 	polygon: autoDraw = True
+163.3018 	EXP 	polygon: autoDraw = False
+163.3018 	EXP 	Line_1: autoDraw = True
+163.3018 	EXP 	Line_2: autoDraw = True
+163.3018 	EXP 	Line_3: autoDraw = True
+163.3018 	EXP 	Line_4: autoDraw = True
+164.3021 	EXP 	probe: autoDraw = True
+164.9562 	DATA 	Keypress: c
+164.9721 	EXP 	New trial (rep=7, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+164.9854 	EXP 	polygon: autoDraw = False
+164.9854 	EXP 	Line_1: autoDraw = False
+164.9854 	EXP 	Line_2: autoDraw = False
+164.9854 	EXP 	Line_3: autoDraw = False
+164.9854 	EXP 	Line_4: autoDraw = False
+164.9854 	EXP 	probe: autoDraw = False
+164.9854 	EXP 	polygon: autoDraw = True
+165.9860 	EXP 	polygon: autoDraw = False
+165.9860 	EXP 	Line_1: autoDraw = True
+165.9860 	EXP 	Line_2: autoDraw = True
+165.9860 	EXP 	Line_3: autoDraw = True
+165.9860 	EXP 	Line_4: autoDraw = True
+166.9865 	EXP 	probe: autoDraw = True
+167.5394 	DATA 	Keypress: c
+167.5553 	EXP 	New trial (rep=7, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+167.5696 	EXP 	polygon: autoDraw = False
+167.5696 	EXP 	Line_1: autoDraw = False
+167.5696 	EXP 	Line_2: autoDraw = False
+167.5696 	EXP 	Line_3: autoDraw = False
+167.5696 	EXP 	Line_4: autoDraw = False
+167.5696 	EXP 	probe: autoDraw = False
+167.5696 	EXP 	polygon: autoDraw = True
+168.5698 	EXP 	polygon: autoDraw = False
+168.5698 	EXP 	Line_1: autoDraw = True
+168.5698 	EXP 	Line_2: autoDraw = True
+168.5698 	EXP 	Line_3: autoDraw = True
+168.5698 	EXP 	Line_4: autoDraw = True
+169.5701 	EXP 	probe: autoDraw = True
+170.1398 	EXP 	New trial (rep=7, index=3): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+170.1418 	DATA 	Keypress: z
+170.1539 	EXP 	polygon: autoDraw = False
+170.1539 	EXP 	Line_1: autoDraw = False
+170.1539 	EXP 	Line_2: autoDraw = False
+170.1539 	EXP 	Line_3: autoDraw = False
+170.1539 	EXP 	Line_4: autoDraw = False
+170.1539 	EXP 	probe: autoDraw = False
+170.1539 	EXP 	polygon: autoDraw = True
+171.1538 	EXP 	polygon: autoDraw = False
+171.1538 	EXP 	Line_1: autoDraw = True
+171.1538 	EXP 	Line_2: autoDraw = True
+171.1538 	EXP 	Line_3: autoDraw = True
+171.1538 	EXP 	Line_4: autoDraw = True
+172.1542 	EXP 	probe: autoDraw = True
+172.5902 	EXP 	New trial (rep=8, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+172.5921 	DATA 	Keypress: x
+172.6044 	EXP 	polygon: autoDraw = False
+172.6044 	EXP 	Line_1: autoDraw = False
+172.6044 	EXP 	Line_2: autoDraw = False
+172.6044 	EXP 	Line_3: autoDraw = False
+172.6044 	EXP 	Line_4: autoDraw = False
+172.6044 	EXP 	probe: autoDraw = False
+172.6044 	EXP 	polygon: autoDraw = True
+173.6048 	EXP 	polygon: autoDraw = False
+173.6048 	EXP 	Line_1: autoDraw = True
+173.6048 	EXP 	Line_2: autoDraw = True
+173.6048 	EXP 	Line_3: autoDraw = True
+173.6048 	EXP 	Line_4: autoDraw = True
+174.6050 	EXP 	probe: autoDraw = True
+175.0409 	EXP 	New trial (rep=8, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+175.0427 	DATA 	Keypress: x
+175.0551 	EXP 	polygon: autoDraw = False
+175.0551 	EXP 	Line_1: autoDraw = False
+175.0551 	EXP 	Line_2: autoDraw = False
+175.0551 	EXP 	Line_3: autoDraw = False
+175.0551 	EXP 	Line_4: autoDraw = False
+175.0551 	EXP 	probe: autoDraw = False
+175.0551 	EXP 	polygon: autoDraw = True
+176.0552 	EXP 	polygon: autoDraw = False
+176.0552 	EXP 	Line_1: autoDraw = True
+176.0552 	EXP 	Line_2: autoDraw = True
+176.0552 	EXP 	Line_3: autoDraw = True
+176.0552 	EXP 	Line_4: autoDraw = True
+177.0562 	EXP 	probe: autoDraw = True
+177.8581 	EXP 	New trial (rep=8, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+177.8599 	DATA 	Keypress: c
+177.8727 	EXP 	polygon: autoDraw = False
+177.8727 	EXP 	Line_1: autoDraw = False
+177.8727 	EXP 	Line_2: autoDraw = False
+177.8727 	EXP 	Line_3: autoDraw = False
+177.8727 	EXP 	Line_4: autoDraw = False
+177.8727 	EXP 	probe: autoDraw = False
+177.8727 	EXP 	polygon: autoDraw = True
+178.8729 	EXP 	polygon: autoDraw = False
+178.8729 	EXP 	Line_1: autoDraw = True
+178.8729 	EXP 	Line_2: autoDraw = True
+178.8729 	EXP 	Line_3: autoDraw = True
+178.8729 	EXP 	Line_4: autoDraw = True
+179.8732 	EXP 	probe: autoDraw = True
+180.2599 	EXP 	New trial (rep=8, index=3): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+180.2618 	DATA 	Keypress: z
+180.2735 	EXP 	polygon: autoDraw = False
+180.2735 	EXP 	Line_1: autoDraw = False
+180.2735 	EXP 	Line_2: autoDraw = False
+180.2735 	EXP 	Line_3: autoDraw = False
+180.2735 	EXP 	Line_4: autoDraw = False
+180.2735 	EXP 	probe: autoDraw = False
+180.2735 	EXP 	polygon: autoDraw = True
+181.2738 	EXP 	polygon: autoDraw = False
+181.2738 	EXP 	Line_1: autoDraw = True
+181.2738 	EXP 	Line_2: autoDraw = True
+181.2738 	EXP 	Line_3: autoDraw = True
+181.2738 	EXP 	Line_4: autoDraw = True
+182.2739 	EXP 	probe: autoDraw = True
+183.8600 	EXP 	New trial (rep=9, index=0): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+183.8618 	DATA 	Keypress: y
+183.8745 	EXP 	polygon: autoDraw = False
+183.8745 	EXP 	Line_1: autoDraw = False
+183.8745 	EXP 	Line_2: autoDraw = False
+183.8745 	EXP 	Line_3: autoDraw = False
+183.8745 	EXP 	Line_4: autoDraw = False
+183.8745 	EXP 	probe: autoDraw = False
+183.8745 	EXP 	polygon: autoDraw = True
+184.8747 	EXP 	polygon: autoDraw = False
+184.8747 	EXP 	Line_1: autoDraw = True
+184.8747 	EXP 	Line_2: autoDraw = True
+184.8747 	EXP 	Line_3: autoDraw = True
+184.8747 	EXP 	Line_4: autoDraw = True
+185.8751 	EXP 	probe: autoDraw = True
+188.5455 	DATA 	Keypress: y
+188.5617 	EXP 	New trial (rep=9, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+188.5758 	EXP 	polygon: autoDraw = False
+188.5758 	EXP 	Line_1: autoDraw = False
+188.5758 	EXP 	Line_2: autoDraw = False
+188.5758 	EXP 	Line_3: autoDraw = False
+188.5758 	EXP 	Line_4: autoDraw = False
+188.5758 	EXP 	probe: autoDraw = False
+188.5758 	EXP 	polygon: autoDraw = True
+189.5762 	EXP 	polygon: autoDraw = False
+189.5762 	EXP 	Line_1: autoDraw = True
+189.5762 	EXP 	Line_2: autoDraw = True
+189.5762 	EXP 	Line_3: autoDraw = True
+189.5762 	EXP 	Line_4: autoDraw = True
+190.5767 	EXP 	probe: autoDraw = True
+191.7791 	EXP 	New trial (rep=9, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+191.7809 	DATA 	Keypress: c
+191.7936 	EXP 	polygon: autoDraw = False
+191.7936 	EXP 	Line_1: autoDraw = False
+191.7936 	EXP 	Line_2: autoDraw = False
+191.7936 	EXP 	Line_3: autoDraw = False
+191.7936 	EXP 	Line_4: autoDraw = False
+191.7936 	EXP 	probe: autoDraw = False
+191.7936 	EXP 	polygon: autoDraw = True
+192.7936 	EXP 	polygon: autoDraw = False
+192.7936 	EXP 	Line_1: autoDraw = True
+192.7936 	EXP 	Line_2: autoDraw = True
+192.7936 	EXP 	Line_3: autoDraw = True
+192.7936 	EXP 	Line_4: autoDraw = True
+193.7940 	EXP 	probe: autoDraw = True
+195.2634 	EXP 	New trial (rep=9, index=3): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+195.2653 	DATA 	Keypress: z
+195.2781 	EXP 	polygon: autoDraw = False
+195.2781 	EXP 	Line_1: autoDraw = False
+195.2781 	EXP 	Line_2: autoDraw = False
+195.2781 	EXP 	Line_3: autoDraw = False
+195.2781 	EXP 	Line_4: autoDraw = False
+195.2781 	EXP 	probe: autoDraw = False
+195.2781 	EXP 	polygon: autoDraw = True
+196.2781 	EXP 	polygon: autoDraw = False
+196.2781 	EXP 	Line_1: autoDraw = True
+196.2781 	EXP 	Line_2: autoDraw = True
+196.2781 	EXP 	Line_3: autoDraw = True
+196.2781 	EXP 	Line_4: autoDraw = True
+197.2623 	EXP 	probe: autoDraw = True
+197.6484 	EXP 	New trial (rep=10, index=0): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+197.6503 	DATA 	Keypress: x
+197.6621 	EXP 	polygon: autoDraw = False
+197.6621 	EXP 	Line_1: autoDraw = False
+197.6621 	EXP 	Line_2: autoDraw = False
+197.6621 	EXP 	Line_3: autoDraw = False
+197.6621 	EXP 	Line_4: autoDraw = False
+197.6621 	EXP 	probe: autoDraw = False
+197.6621 	EXP 	polygon: autoDraw = True
+198.6622 	EXP 	polygon: autoDraw = False
+198.6622 	EXP 	Line_1: autoDraw = True
+198.6622 	EXP 	Line_2: autoDraw = True
+198.6622 	EXP 	Line_3: autoDraw = True
+198.6622 	EXP 	Line_4: autoDraw = True
+199.6627 	EXP 	probe: autoDraw = True
+199.9982 	EXP 	New trial (rep=10, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+200.0000 	DATA 	Keypress: z
+200.0127 	EXP 	polygon: autoDraw = False
+200.0127 	EXP 	Line_1: autoDraw = False
+200.0127 	EXP 	Line_2: autoDraw = False
+200.0127 	EXP 	Line_3: autoDraw = False
+200.0127 	EXP 	Line_4: autoDraw = False
+200.0127 	EXP 	probe: autoDraw = False
+200.0127 	EXP 	polygon: autoDraw = True
+201.0129 	EXP 	polygon: autoDraw = False
+201.0129 	EXP 	Line_1: autoDraw = True
+201.0129 	EXP 	Line_2: autoDraw = True
+201.0129 	EXP 	Line_3: autoDraw = True
+201.0129 	EXP 	Line_4: autoDraw = True
+202.0132 	EXP 	probe: autoDraw = True
+202.5658 	EXP 	New trial (rep=10, index=2): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+202.5676 	DATA 	Keypress: y
+202.5801 	EXP 	polygon: autoDraw = False
+202.5801 	EXP 	Line_1: autoDraw = False
+202.5801 	EXP 	Line_2: autoDraw = False
+202.5801 	EXP 	Line_3: autoDraw = False
+202.5801 	EXP 	Line_4: autoDraw = False
+202.5801 	EXP 	probe: autoDraw = False
+202.5801 	EXP 	polygon: autoDraw = True
+203.5805 	EXP 	polygon: autoDraw = False
+203.5805 	EXP 	Line_1: autoDraw = True
+203.5805 	EXP 	Line_2: autoDraw = True
+203.5805 	EXP 	Line_3: autoDraw = True
+203.5805 	EXP 	Line_4: autoDraw = True
+204.5809 	EXP 	probe: autoDraw = True
+205.2001 	EXP 	New trial (rep=10, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+205.2019 	DATA 	Keypress: x
+205.2142 	EXP 	polygon: autoDraw = False
+205.2142 	EXP 	Line_1: autoDraw = False
+205.2142 	EXP 	Line_2: autoDraw = False
+205.2142 	EXP 	Line_3: autoDraw = False
+205.2142 	EXP 	Line_4: autoDraw = False
+205.2142 	EXP 	probe: autoDraw = False
+205.2142 	EXP 	polygon: autoDraw = True
+206.2151 	EXP 	polygon: autoDraw = False
+206.2151 	EXP 	Line_1: autoDraw = True
+206.2151 	EXP 	Line_2: autoDraw = True
+206.2151 	EXP 	Line_3: autoDraw = True
+206.2151 	EXP 	Line_4: autoDraw = True
+207.2151 	EXP 	probe: autoDraw = True
+207.7176 	EXP 	New trial (rep=11, index=0): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+207.7195 	DATA 	Keypress: c
+207.7318 	EXP 	polygon: autoDraw = False
+207.7318 	EXP 	Line_1: autoDraw = False
+207.7318 	EXP 	Line_2: autoDraw = False
+207.7318 	EXP 	Line_3: autoDraw = False
+207.7318 	EXP 	Line_4: autoDraw = False
+207.7318 	EXP 	probe: autoDraw = False
+207.7318 	EXP 	polygon: autoDraw = True
+208.7321 	EXP 	polygon: autoDraw = False
+208.7321 	EXP 	Line_1: autoDraw = True
+208.7321 	EXP 	Line_2: autoDraw = True
+208.7321 	EXP 	Line_3: autoDraw = True
+208.7321 	EXP 	Line_4: autoDraw = True
+209.7322 	EXP 	probe: autoDraw = True
+210.1179 	EXP 	New trial (rep=11, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+210.1197 	DATA 	Keypress: z
+210.1323 	EXP 	polygon: autoDraw = False
+210.1323 	EXP 	Line_1: autoDraw = False
+210.1323 	EXP 	Line_2: autoDraw = False
+210.1323 	EXP 	Line_3: autoDraw = False
+210.1323 	EXP 	Line_4: autoDraw = False
+210.1323 	EXP 	probe: autoDraw = False
+210.1323 	EXP 	polygon: autoDraw = True
+211.1326 	EXP 	polygon: autoDraw = False
+211.1326 	EXP 	Line_1: autoDraw = True
+211.1326 	EXP 	Line_2: autoDraw = True
+211.1326 	EXP 	Line_3: autoDraw = True
+211.1326 	EXP 	Line_4: autoDraw = True
+212.1329 	EXP 	probe: autoDraw = True
+212.6024 	EXP 	New trial (rep=11, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+212.6043 	DATA 	Keypress: y
+212.6166 	EXP 	polygon: autoDraw = False
+212.6166 	EXP 	Line_1: autoDraw = False
+212.6166 	EXP 	Line_2: autoDraw = False
+212.6166 	EXP 	Line_3: autoDraw = False
+212.6166 	EXP 	Line_4: autoDraw = False
+212.6166 	EXP 	probe: autoDraw = False
+212.6166 	EXP 	polygon: autoDraw = True
+213.6167 	EXP 	polygon: autoDraw = False
+213.6167 	EXP 	Line_1: autoDraw = True
+213.6167 	EXP 	Line_2: autoDraw = True
+213.6167 	EXP 	Line_3: autoDraw = True
+213.6167 	EXP 	Line_4: autoDraw = True
+214.6170 	EXP 	probe: autoDraw = True
+215.2697 	EXP 	New trial (rep=11, index=3): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+215.2717 	DATA 	Keypress: c
+215.2839 	EXP 	polygon: autoDraw = False
+215.2839 	EXP 	Line_1: autoDraw = False
+215.2839 	EXP 	Line_2: autoDraw = False
+215.2839 	EXP 	Line_3: autoDraw = False
+215.2839 	EXP 	Line_4: autoDraw = False
+215.2839 	EXP 	probe: autoDraw = False
+215.2839 	EXP 	polygon: autoDraw = True
+216.2842 	EXP 	polygon: autoDraw = False
+216.2842 	EXP 	Line_1: autoDraw = True
+216.2842 	EXP 	Line_2: autoDraw = True
+216.2842 	EXP 	Line_3: autoDraw = True
+216.2842 	EXP 	Line_4: autoDraw = True
+217.2849 	EXP 	probe: autoDraw = True
+217.7040 	EXP 	New trial (rep=12, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+217.7058 	DATA 	Keypress: x
+217.7179 	EXP 	polygon: autoDraw = False
+217.7179 	EXP 	Line_1: autoDraw = False
+217.7179 	EXP 	Line_2: autoDraw = False
+217.7179 	EXP 	Line_3: autoDraw = False
+217.7179 	EXP 	Line_4: autoDraw = False
+217.7179 	EXP 	probe: autoDraw = False
+217.7179 	EXP 	polygon: autoDraw = True
+218.7184 	EXP 	polygon: autoDraw = False
+218.7184 	EXP 	Line_1: autoDraw = True
+218.7184 	EXP 	Line_2: autoDraw = True
+218.7184 	EXP 	Line_3: autoDraw = True
+218.7184 	EXP 	Line_4: autoDraw = True
+219.0540 	DATA 	Keypress: z
+219.7186 	EXP 	probe: autoDraw = True
+220.1273 	EXP 	New trial (rep=12, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+220.1292 	DATA 	Keypress: z
+220.1373 	EXP 	polygon: autoDraw = False
+220.1373 	EXP 	Line_1: autoDraw = False
+220.1373 	EXP 	Line_2: autoDraw = False
+220.1373 	EXP 	Line_3: autoDraw = False
+220.1373 	EXP 	Line_4: autoDraw = False
+220.1373 	EXP 	probe: autoDraw = False
+220.1373 	EXP 	polygon: autoDraw = True
+221.1362 	EXP 	Line_1: autoDraw = True
+221.1362 	EXP 	Line_2: autoDraw = True
+221.1362 	EXP 	Line_3: autoDraw = True
+221.1362 	EXP 	Line_4: autoDraw = True
+221.1524 	EXP 	polygon: autoDraw = False
+222.1364 	EXP 	probe: autoDraw = True
+222.6391 	EXP 	New trial (rep=12, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+222.6413 	DATA 	Keypress: y
+222.6531 	EXP 	polygon: autoDraw = False
+222.6531 	EXP 	Line_1: autoDraw = False
+222.6531 	EXP 	Line_2: autoDraw = False
+222.6531 	EXP 	Line_3: autoDraw = False
+222.6531 	EXP 	Line_4: autoDraw = False
+222.6531 	EXP 	probe: autoDraw = False
+222.6531 	EXP 	polygon: autoDraw = True
+223.6533 	EXP 	polygon: autoDraw = False
+223.6533 	EXP 	Line_1: autoDraw = True
+223.6533 	EXP 	Line_2: autoDraw = True
+223.6533 	EXP 	Line_3: autoDraw = True
+223.6533 	EXP 	Line_4: autoDraw = True
+224.6534 	EXP 	probe: autoDraw = True
+225.0723 	EXP 	New trial (rep=12, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+225.0741 	DATA 	Keypress: z
+225.0868 	EXP 	polygon: autoDraw = False
+225.0868 	EXP 	Line_1: autoDraw = False
+225.0868 	EXP 	Line_2: autoDraw = False
+225.0868 	EXP 	Line_3: autoDraw = False
+225.0868 	EXP 	Line_4: autoDraw = False
+225.0868 	EXP 	probe: autoDraw = False
+225.0868 	EXP 	polygon: autoDraw = True
+226.0871 	EXP 	polygon: autoDraw = False
+226.0871 	EXP 	Line_1: autoDraw = True
+226.0871 	EXP 	Line_2: autoDraw = True
+226.0871 	EXP 	Line_3: autoDraw = True
+226.0871 	EXP 	Line_4: autoDraw = True
+227.0878 	EXP 	probe: autoDraw = True
+227.8737 	EXP 	New trial (rep=13, index=0): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+227.8756 	DATA 	Keypress: c
+227.8876 	EXP 	polygon: autoDraw = False
+227.8876 	EXP 	Line_1: autoDraw = False
+227.8876 	EXP 	Line_2: autoDraw = False
+227.8876 	EXP 	Line_3: autoDraw = False
+227.8876 	EXP 	Line_4: autoDraw = False
+227.8876 	EXP 	probe: autoDraw = False
+227.8876 	EXP 	polygon: autoDraw = True
+228.8879 	EXP 	polygon: autoDraw = False
+228.8879 	EXP 	Line_1: autoDraw = True
+228.8879 	EXP 	Line_2: autoDraw = True
+228.8879 	EXP 	Line_3: autoDraw = True
+228.8879 	EXP 	Line_4: autoDraw = True
+229.8890 	EXP 	probe: autoDraw = True
+230.3748 	EXP 	New trial (rep=13, index=1): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+230.3768 	DATA 	Keypress: y
+230.3885 	EXP 	polygon: autoDraw = False
+230.3885 	EXP 	Line_1: autoDraw = False
+230.3885 	EXP 	Line_2: autoDraw = False
+230.3885 	EXP 	Line_3: autoDraw = False
+230.3885 	EXP 	Line_4: autoDraw = False
+230.3885 	EXP 	probe: autoDraw = False
+230.3885 	EXP 	polygon: autoDraw = True
+231.3890 	EXP 	polygon: autoDraw = False
+231.3890 	EXP 	Line_1: autoDraw = True
+231.3890 	EXP 	Line_2: autoDraw = True
+231.3890 	EXP 	Line_3: autoDraw = True
+231.3890 	EXP 	Line_4: autoDraw = True
+232.3890 	EXP 	probe: autoDraw = True
+233.0582 	EXP 	New trial (rep=13, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+233.0600 	DATA 	Keypress: x
+233.0724 	EXP 	polygon: autoDraw = False
+233.0724 	EXP 	Line_1: autoDraw = False
+233.0724 	EXP 	Line_2: autoDraw = False
+233.0724 	EXP 	Line_3: autoDraw = False
+233.0724 	EXP 	Line_4: autoDraw = False
+233.0724 	EXP 	probe: autoDraw = False
+233.0724 	EXP 	polygon: autoDraw = True
+234.0728 	EXP 	polygon: autoDraw = False
+234.0728 	EXP 	Line_1: autoDraw = True
+234.0728 	EXP 	Line_2: autoDraw = True
+234.0728 	EXP 	Line_3: autoDraw = True
+234.0728 	EXP 	Line_4: autoDraw = True
+235.0732 	EXP 	probe: autoDraw = True
+235.4429 	DATA 	Keypress: z
+235.4589 	EXP 	New trial (rep=13, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+235.4733 	EXP 	polygon: autoDraw = False
+235.4733 	EXP 	Line_1: autoDraw = False
+235.4733 	EXP 	Line_2: autoDraw = False
+235.4733 	EXP 	Line_3: autoDraw = False
+235.4733 	EXP 	Line_4: autoDraw = False
+235.4733 	EXP 	probe: autoDraw = False
+235.4733 	EXP 	polygon: autoDraw = True
+236.4735 	EXP 	polygon: autoDraw = False
+236.4735 	EXP 	Line_1: autoDraw = True
+236.4735 	EXP 	Line_2: autoDraw = True
+236.4735 	EXP 	Line_3: autoDraw = True
+236.4735 	EXP 	Line_4: autoDraw = True
+237.4738 	EXP 	probe: autoDraw = True
+238.2765 	EXP 	New trial (rep=14, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+238.2784 	DATA 	Keypress: c
+238.2907 	EXP 	polygon: autoDraw = False
+238.2907 	EXP 	Line_1: autoDraw = False
+238.2907 	EXP 	Line_2: autoDraw = False
+238.2907 	EXP 	Line_3: autoDraw = False
+238.2907 	EXP 	Line_4: autoDraw = False
+238.2907 	EXP 	probe: autoDraw = False
+238.2907 	EXP 	polygon: autoDraw = True
+239.2910 	EXP 	polygon: autoDraw = False
+239.2910 	EXP 	Line_1: autoDraw = True
+239.2910 	EXP 	Line_2: autoDraw = True
+239.2910 	EXP 	Line_3: autoDraw = True
+239.2910 	EXP 	Line_4: autoDraw = True
+240.2913 	EXP 	probe: autoDraw = True
+242.0949 	EXP 	New trial (rep=14, index=1): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+242.0970 	DATA 	Keypress: z
+242.1090 	EXP 	polygon: autoDraw = False
+242.1090 	EXP 	Line_1: autoDraw = False
+242.1090 	EXP 	Line_2: autoDraw = False
+242.1090 	EXP 	Line_3: autoDraw = False
+242.1090 	EXP 	Line_4: autoDraw = False
+242.1090 	EXP 	probe: autoDraw = False
+242.1090 	EXP 	polygon: autoDraw = True
+243.1088 	EXP 	polygon: autoDraw = False
+243.1088 	EXP 	Line_1: autoDraw = True
+243.1088 	EXP 	Line_2: autoDraw = True
+243.1088 	EXP 	Line_3: autoDraw = True
+243.1088 	EXP 	Line_4: autoDraw = True
+244.1092 	EXP 	probe: autoDraw = True
+244.4783 	EXP 	New trial (rep=14, index=2): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+244.4800 	DATA 	Keypress: z
+244.4926 	EXP 	polygon: autoDraw = False
+244.4926 	EXP 	Line_1: autoDraw = False
+244.4926 	EXP 	Line_2: autoDraw = False
+244.4926 	EXP 	Line_3: autoDraw = False
+244.4926 	EXP 	Line_4: autoDraw = False
+244.4926 	EXP 	probe: autoDraw = False
+244.4926 	EXP 	polygon: autoDraw = True
+245.4930 	EXP 	polygon: autoDraw = False
+245.4930 	EXP 	Line_1: autoDraw = True
+245.4930 	EXP 	Line_2: autoDraw = True
+245.4930 	EXP 	Line_3: autoDraw = True
+245.4930 	EXP 	Line_4: autoDraw = True
+246.4932 	EXP 	probe: autoDraw = True
+246.8629 	EXP 	New trial (rep=14, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+246.8649 	DATA 	Keypress: y
+246.8775 	EXP 	polygon: autoDraw = False
+246.8775 	EXP 	Line_1: autoDraw = False
+246.8775 	EXP 	Line_2: autoDraw = False
+246.8775 	EXP 	Line_3: autoDraw = False
+246.8775 	EXP 	Line_4: autoDraw = False
+246.8775 	EXP 	probe: autoDraw = False
+246.8775 	EXP 	polygon: autoDraw = True
+247.8777 	EXP 	polygon: autoDraw = False
+247.8777 	EXP 	Line_1: autoDraw = True
+247.8777 	EXP 	Line_2: autoDraw = True
+247.8777 	EXP 	Line_3: autoDraw = True
+247.8777 	EXP 	Line_4: autoDraw = True
+248.8778 	EXP 	probe: autoDraw = True
+249.3968 	EXP 	New trial (rep=15, index=0): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+249.3987 	DATA 	Keypress: c
+249.4110 	EXP 	polygon: autoDraw = False
+249.4110 	EXP 	Line_1: autoDraw = False
+249.4110 	EXP 	Line_2: autoDraw = False
+249.4110 	EXP 	Line_3: autoDraw = False
+249.4110 	EXP 	Line_4: autoDraw = False
+249.4110 	EXP 	probe: autoDraw = False
+249.4110 	EXP 	polygon: autoDraw = True
+250.4110 	EXP 	polygon: autoDraw = False
+250.4110 	EXP 	Line_1: autoDraw = True
+250.4110 	EXP 	Line_2: autoDraw = True
+250.4110 	EXP 	Line_3: autoDraw = True
+250.4110 	EXP 	Line_4: autoDraw = True
+251.4115 	EXP 	probe: autoDraw = True
+252.1309 	EXP 	New trial (rep=15, index=1): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+252.1327 	DATA 	Keypress: c
+252.1454 	EXP 	polygon: autoDraw = False
+252.1454 	EXP 	Line_1: autoDraw = False
+252.1454 	EXP 	Line_2: autoDraw = False
+252.1454 	EXP 	Line_3: autoDraw = False
+252.1454 	EXP 	Line_4: autoDraw = False
+252.1454 	EXP 	probe: autoDraw = False
+252.1454 	EXP 	polygon: autoDraw = True
+253.1453 	EXP 	polygon: autoDraw = False
+253.1453 	EXP 	Line_1: autoDraw = True
+253.1453 	EXP 	Line_2: autoDraw = True
+253.1453 	EXP 	Line_3: autoDraw = True
+253.1453 	EXP 	Line_4: autoDraw = True
+254.1458 	EXP 	probe: autoDraw = True
+254.6316 	EXP 	New trial (rep=15, index=2): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+254.6335 	DATA 	Keypress: x
+254.6459 	EXP 	polygon: autoDraw = False
+254.6459 	EXP 	Line_1: autoDraw = False
+254.6459 	EXP 	Line_2: autoDraw = False
+254.6459 	EXP 	Line_3: autoDraw = False
+254.6459 	EXP 	Line_4: autoDraw = False
+254.6459 	EXP 	probe: autoDraw = False
+254.6459 	EXP 	polygon: autoDraw = True
+255.6463 	EXP 	polygon: autoDraw = False
+255.6463 	EXP 	Line_1: autoDraw = True
+255.6463 	EXP 	Line_2: autoDraw = True
+255.6463 	EXP 	Line_3: autoDraw = True
+255.6463 	EXP 	Line_4: autoDraw = True
+256.6465 	EXP 	probe: autoDraw = True
+257.2506 	EXP 	New trial (rep=15, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+257.2527 	DATA 	Keypress: y
+257.2639 	EXP 	polygon: autoDraw = False
+257.2639 	EXP 	Line_1: autoDraw = False
+257.2639 	EXP 	Line_2: autoDraw = False
+257.2639 	EXP 	Line_3: autoDraw = False
+257.2639 	EXP 	Line_4: autoDraw = False
+257.2639 	EXP 	probe: autoDraw = False
+257.2639 	EXP 	polygon: autoDraw = True
+258.2638 	EXP 	polygon: autoDraw = False
+258.2638 	EXP 	Line_1: autoDraw = True
+258.2638 	EXP 	Line_2: autoDraw = True
+258.2638 	EXP 	Line_3: autoDraw = True
+258.2638 	EXP 	Line_4: autoDraw = True
+259.2639 	EXP 	probe: autoDraw = True
+259.8334 	EXP 	New trial (rep=16, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+259.8353 	DATA 	Keypress: z
+259.8476 	EXP 	polygon: autoDraw = False
+259.8476 	EXP 	Line_1: autoDraw = False
+259.8476 	EXP 	Line_2: autoDraw = False
+259.8476 	EXP 	Line_3: autoDraw = False
+259.8476 	EXP 	Line_4: autoDraw = False
+259.8476 	EXP 	probe: autoDraw = False
+259.8476 	EXP 	polygon: autoDraw = True
+260.8479 	EXP 	polygon: autoDraw = False
+260.8479 	EXP 	Line_1: autoDraw = True
+260.8479 	EXP 	Line_2: autoDraw = True
+260.8479 	EXP 	Line_3: autoDraw = True
+260.8479 	EXP 	Line_4: autoDraw = True
+261.8478 	EXP 	probe: autoDraw = True
+262.3676 	DATA 	Keypress: x
+262.3839 	EXP 	New trial (rep=16, index=1): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+262.3982 	EXP 	polygon: autoDraw = False
+262.3982 	EXP 	Line_1: autoDraw = False
+262.3982 	EXP 	Line_2: autoDraw = False
+262.3982 	EXP 	Line_3: autoDraw = False
+262.3982 	EXP 	Line_4: autoDraw = False
+262.3982 	EXP 	probe: autoDraw = False
+262.3982 	EXP 	polygon: autoDraw = True
+263.3982 	EXP 	polygon: autoDraw = False
+263.3982 	EXP 	Line_1: autoDraw = True
+263.3982 	EXP 	Line_2: autoDraw = True
+263.3982 	EXP 	Line_3: autoDraw = True
+263.3982 	EXP 	Line_4: autoDraw = True
+264.3986 	EXP 	probe: autoDraw = True
+264.8677 	EXP 	New trial (rep=16, index=2): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+264.8696 	DATA 	Keypress: z
+264.8819 	EXP 	polygon: autoDraw = False
+264.8819 	EXP 	Line_1: autoDraw = False
+264.8819 	EXP 	Line_2: autoDraw = False
+264.8819 	EXP 	Line_3: autoDraw = False
+264.8819 	EXP 	Line_4: autoDraw = False
+264.8819 	EXP 	probe: autoDraw = False
+264.8819 	EXP 	polygon: autoDraw = True
+265.8823 	EXP 	polygon: autoDraw = False
+265.8823 	EXP 	Line_1: autoDraw = True
+265.8823 	EXP 	Line_2: autoDraw = True
+265.8823 	EXP 	Line_3: autoDraw = True
+265.8823 	EXP 	Line_4: autoDraw = True
+266.8828 	EXP 	probe: autoDraw = True
+267.2200 	EXP 	New trial (rep=16, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+267.2228 	DATA 	Keypress: y
+267.2335 	EXP 	polygon: autoDraw = False
+267.2335 	EXP 	Line_1: autoDraw = False
+267.2335 	EXP 	Line_2: autoDraw = False
+267.2335 	EXP 	Line_3: autoDraw = False
+267.2335 	EXP 	Line_4: autoDraw = False
+267.2335 	EXP 	probe: autoDraw = False
+267.2335 	EXP 	polygon: autoDraw = True
+268.2330 	EXP 	polygon: autoDraw = False
+268.2330 	EXP 	Line_1: autoDraw = True
+268.2330 	EXP 	Line_2: autoDraw = True
+268.2330 	EXP 	Line_3: autoDraw = True
+268.2330 	EXP 	Line_4: autoDraw = True
+269.2332 	EXP 	probe: autoDraw = True
+269.7862 	EXP 	New trial (rep=17, index=0): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+269.7880 	DATA 	Keypress: c
+269.8001 	EXP 	polygon: autoDraw = False
+269.8001 	EXP 	Line_1: autoDraw = False
+269.8001 	EXP 	Line_2: autoDraw = False
+269.8001 	EXP 	Line_3: autoDraw = False
+269.8001 	EXP 	Line_4: autoDraw = False
+269.8001 	EXP 	probe: autoDraw = False
+269.8001 	EXP 	polygon: autoDraw = True
+270.8006 	EXP 	polygon: autoDraw = False
+270.8006 	EXP 	Line_1: autoDraw = True
+270.8006 	EXP 	Line_2: autoDraw = True
+270.8006 	EXP 	Line_3: autoDraw = True
+270.8006 	EXP 	Line_4: autoDraw = True
+271.8010 	EXP 	probe: autoDraw = True
+272.3030 	EXP 	New trial (rep=17, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+272.3048 	DATA 	Keypress: y
+272.3178 	EXP 	polygon: autoDraw = False
+272.3178 	EXP 	Line_1: autoDraw = False
+272.3178 	EXP 	Line_2: autoDraw = False
+272.3178 	EXP 	Line_3: autoDraw = False
+272.3178 	EXP 	Line_4: autoDraw = False
+272.3178 	EXP 	probe: autoDraw = False
+272.3178 	EXP 	polygon: autoDraw = True
+273.3180 	EXP 	polygon: autoDraw = False
+273.3180 	EXP 	Line_1: autoDraw = True
+273.3180 	EXP 	Line_2: autoDraw = True
+273.3180 	EXP 	Line_3: autoDraw = True
+273.3180 	EXP 	Line_4: autoDraw = True
+274.3016 	EXP 	probe: autoDraw = True
+274.9052 	DATA 	Keypress: c
+274.9207 	EXP 	New trial (rep=17, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+274.9353 	EXP 	polygon: autoDraw = False
+274.9353 	EXP 	Line_1: autoDraw = False
+274.9353 	EXP 	Line_2: autoDraw = False
+274.9353 	EXP 	Line_3: autoDraw = False
+274.9353 	EXP 	Line_4: autoDraw = False
+274.9353 	EXP 	probe: autoDraw = False
+274.9353 	EXP 	polygon: autoDraw = True
+275.9355 	EXP 	polygon: autoDraw = False
+275.9355 	EXP 	Line_1: autoDraw = True
+275.9355 	EXP 	Line_2: autoDraw = True
+275.9355 	EXP 	Line_3: autoDraw = True
+275.9355 	EXP 	Line_4: autoDraw = True
+276.9207 	EXP 	probe: autoDraw = True
+277.3052 	EXP 	New trial (rep=17, index=3): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+277.3071 	DATA 	Keypress: z
+277.3190 	EXP 	polygon: autoDraw = False
+277.3190 	EXP 	Line_1: autoDraw = False
+277.3190 	EXP 	Line_2: autoDraw = False
+277.3190 	EXP 	Line_3: autoDraw = False
+277.3190 	EXP 	Line_4: autoDraw = False
+277.3190 	EXP 	probe: autoDraw = False
+277.3190 	EXP 	polygon: autoDraw = True
+278.3193 	EXP 	polygon: autoDraw = False
+278.3193 	EXP 	Line_1: autoDraw = True
+278.3193 	EXP 	Line_2: autoDraw = True
+278.3193 	EXP 	Line_3: autoDraw = True
+278.3193 	EXP 	Line_4: autoDraw = True
+279.3196 	EXP 	probe: autoDraw = True
+279.7554 	EXP 	New trial (rep=18, index=0): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+279.7571 	DATA 	Keypress: c
+279.7701 	EXP 	polygon: autoDraw = False
+279.7701 	EXP 	Line_1: autoDraw = False
+279.7701 	EXP 	Line_2: autoDraw = False
+279.7701 	EXP 	Line_3: autoDraw = False
+279.7701 	EXP 	Line_4: autoDraw = False
+279.7701 	EXP 	probe: autoDraw = False
+279.7701 	EXP 	polygon: autoDraw = True
+280.7703 	EXP 	polygon: autoDraw = False
+280.7703 	EXP 	Line_1: autoDraw = True
+280.7703 	EXP 	Line_2: autoDraw = True
+280.7703 	EXP 	Line_3: autoDraw = True
+280.7703 	EXP 	Line_4: autoDraw = True
+281.4064 	DATA 	Mouse: Left button down, pos=(566,513)
+281.5399 	DATA 	Mouse:  Left button up, pos=(566,513)
+281.7537 	EXP 	probe: autoDraw = True
+282.4063 	EXP 	New trial (rep=18, index=1): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+282.4080 	DATA 	Keypress: y
+282.4209 	EXP 	polygon: autoDraw = False
+282.4209 	EXP 	Line_1: autoDraw = False
+282.4209 	EXP 	Line_2: autoDraw = False
+282.4209 	EXP 	Line_3: autoDraw = False
+282.4209 	EXP 	Line_4: autoDraw = False
+282.4209 	EXP 	probe: autoDraw = False
+282.4209 	EXP 	polygon: autoDraw = True
+283.4209 	EXP 	polygon: autoDraw = False
+283.4209 	EXP 	Line_1: autoDraw = True
+283.4209 	EXP 	Line_2: autoDraw = True
+283.4209 	EXP 	Line_3: autoDraw = True
+283.4209 	EXP 	Line_4: autoDraw = True
+284.4051 	EXP 	probe: autoDraw = True
+284.7737 	EXP 	New trial (rep=18, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+284.7755 	DATA 	Keypress: x
+284.7882 	EXP 	polygon: autoDraw = False
+284.7882 	EXP 	Line_1: autoDraw = False
+284.7882 	EXP 	Line_2: autoDraw = False
+284.7882 	EXP 	Line_3: autoDraw = False
+284.7882 	EXP 	Line_4: autoDraw = False
+284.7882 	EXP 	probe: autoDraw = False
+284.7882 	EXP 	polygon: autoDraw = True
+285.7889 	EXP 	polygon: autoDraw = False
+285.7889 	EXP 	Line_1: autoDraw = True
+285.7889 	EXP 	Line_2: autoDraw = True
+285.7889 	EXP 	Line_3: autoDraw = True
+285.7889 	EXP 	Line_4: autoDraw = True
+286.7894 	EXP 	probe: autoDraw = True
+287.1786 	DATA 	Keypress: z
+287.1945 	EXP 	New trial (rep=18, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+287.2090 	EXP 	polygon: autoDraw = False
+287.2090 	EXP 	Line_1: autoDraw = False
+287.2090 	EXP 	Line_2: autoDraw = False
+287.2090 	EXP 	Line_3: autoDraw = False
+287.2090 	EXP 	Line_4: autoDraw = False
+287.2090 	EXP 	probe: autoDraw = False
+287.2090 	EXP 	polygon: autoDraw = True
+288.2057 	EXP 	Line_1: autoDraw = True
+288.2057 	EXP 	Line_2: autoDraw = True
+288.2057 	EXP 	Line_3: autoDraw = True
+288.2057 	EXP 	Line_4: autoDraw = True
+288.2224 	EXP 	polygon: autoDraw = False
+289.2062 	EXP 	probe: autoDraw = True
+289.6763 	EXP 	New trial (rep=19, index=0): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+289.6785 	DATA 	Keypress: c
+289.6903 	EXP 	polygon: autoDraw = False
+289.6903 	EXP 	Line_1: autoDraw = False
+289.6903 	EXP 	Line_2: autoDraw = False
+289.6903 	EXP 	Line_3: autoDraw = False
+289.6903 	EXP 	Line_4: autoDraw = False
+289.6903 	EXP 	probe: autoDraw = False
+289.6903 	EXP 	polygon: autoDraw = True
+290.6900 	EXP 	polygon: autoDraw = False
+290.6900 	EXP 	Line_1: autoDraw = True
+290.6900 	EXP 	Line_2: autoDraw = True
+290.6900 	EXP 	Line_3: autoDraw = True
+290.6900 	EXP 	Line_4: autoDraw = True
+291.6908 	EXP 	probe: autoDraw = True
+292.2269 	DATA 	Keypress: c
+292.2425 	EXP 	New trial (rep=19, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+292.2569 	EXP 	polygon: autoDraw = False
+292.2569 	EXP 	Line_1: autoDraw = False
+292.2569 	EXP 	Line_2: autoDraw = False
+292.2569 	EXP 	Line_3: autoDraw = False
+292.2569 	EXP 	Line_4: autoDraw = False
+292.2569 	EXP 	probe: autoDraw = False
+292.2569 	EXP 	polygon: autoDraw = True
+293.2572 	EXP 	polygon: autoDraw = False
+293.2572 	EXP 	Line_1: autoDraw = True
+293.2572 	EXP 	Line_2: autoDraw = True
+293.2572 	EXP 	Line_3: autoDraw = True
+293.2572 	EXP 	Line_4: autoDraw = True
+294.2575 	EXP 	probe: autoDraw = True
+294.6599 	EXP 	New trial (rep=19, index=2): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+294.6618 	DATA 	Keypress: y
+294.6743 	EXP 	polygon: autoDraw = False
+294.6743 	EXP 	Line_1: autoDraw = False
+294.6743 	EXP 	Line_2: autoDraw = False
+294.6743 	EXP 	Line_3: autoDraw = False
+294.6743 	EXP 	Line_4: autoDraw = False
+294.6743 	EXP 	probe: autoDraw = False
+294.6743 	EXP 	polygon: autoDraw = True
+295.6750 	EXP 	polygon: autoDraw = False
+295.6750 	EXP 	Line_1: autoDraw = True
+295.6750 	EXP 	Line_2: autoDraw = True
+295.6750 	EXP 	Line_3: autoDraw = True
+295.6750 	EXP 	Line_4: autoDraw = True
+296.6589 	EXP 	probe: autoDraw = True
+297.0613 	EXP 	New trial (rep=19, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+297.0633 	DATA 	Keypress: x
+297.0754 	EXP 	polygon: autoDraw = False
+297.0754 	EXP 	Line_1: autoDraw = False
+297.0754 	EXP 	Line_2: autoDraw = False
+297.0754 	EXP 	Line_3: autoDraw = False
+297.0754 	EXP 	Line_4: autoDraw = False
+297.0754 	EXP 	probe: autoDraw = False
+297.0754 	EXP 	polygon: autoDraw = True
+298.0758 	EXP 	polygon: autoDraw = False
+298.0758 	EXP 	Line_1: autoDraw = True
+298.0758 	EXP 	Line_2: autoDraw = True
+298.0758 	EXP 	Line_3: autoDraw = True
+298.0758 	EXP 	Line_4: autoDraw = True
+299.0767 	EXP 	probe: autoDraw = True
+299.4952 	EXP 	New trial (rep=20, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+299.4971 	DATA 	Keypress: z
+299.5092 	EXP 	polygon: autoDraw = False
+299.5092 	EXP 	Line_1: autoDraw = False
+299.5092 	EXP 	Line_2: autoDraw = False
+299.5092 	EXP 	Line_3: autoDraw = False
+299.5092 	EXP 	Line_4: autoDraw = False
+299.5092 	EXP 	probe: autoDraw = False
+299.5092 	EXP 	polygon: autoDraw = True
+300.5098 	EXP 	polygon: autoDraw = False
+300.5098 	EXP 	Line_1: autoDraw = True
+300.5098 	EXP 	Line_2: autoDraw = True
+300.5098 	EXP 	Line_3: autoDraw = True
+300.5098 	EXP 	Line_4: autoDraw = True
+301.5099 	EXP 	probe: autoDraw = True
+301.9791 	EXP 	New trial (rep=20, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+301.9818 	DATA 	Keypress: x
+301.9932 	EXP 	polygon: autoDraw = False
+301.9932 	EXP 	Line_1: autoDraw = False
+301.9932 	EXP 	Line_2: autoDraw = False
+301.9932 	EXP 	Line_3: autoDraw = False
+301.9932 	EXP 	Line_4: autoDraw = False
+301.9932 	EXP 	probe: autoDraw = False
+301.9932 	EXP 	polygon: autoDraw = True
+302.9934 	EXP 	polygon: autoDraw = False
+302.9934 	EXP 	Line_1: autoDraw = True
+302.9934 	EXP 	Line_2: autoDraw = True
+302.9934 	EXP 	Line_3: autoDraw = True
+302.9934 	EXP 	Line_4: autoDraw = True
+303.9937 	EXP 	probe: autoDraw = True
+304.8965 	EXP 	New trial (rep=20, index=2): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+304.8983 	DATA 	Keypress: c
+304.9107 	EXP 	polygon: autoDraw = False
+304.9107 	EXP 	Line_1: autoDraw = False
+304.9107 	EXP 	Line_2: autoDraw = False
+304.9107 	EXP 	Line_3: autoDraw = False
+304.9107 	EXP 	Line_4: autoDraw = False
+304.9107 	EXP 	probe: autoDraw = False
+304.9107 	EXP 	polygon: autoDraw = True
+305.9109 	EXP 	polygon: autoDraw = False
+305.9109 	EXP 	Line_1: autoDraw = True
+305.9109 	EXP 	Line_2: autoDraw = True
+305.9109 	EXP 	Line_3: autoDraw = True
+305.9109 	EXP 	Line_4: autoDraw = True
+306.9117 	EXP 	probe: autoDraw = True
+307.2804 	EXP 	New trial (rep=20, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+307.2822 	DATA 	Keypress: y
+307.2947 	EXP 	polygon: autoDraw = False
+307.2947 	EXP 	Line_1: autoDraw = False
+307.2947 	EXP 	Line_2: autoDraw = False
+307.2947 	EXP 	Line_3: autoDraw = False
+307.2947 	EXP 	Line_4: autoDraw = False
+307.2947 	EXP 	probe: autoDraw = False
+307.2947 	EXP 	polygon: autoDraw = True
+308.2950 	EXP 	polygon: autoDraw = False
+308.2950 	EXP 	Line_1: autoDraw = True
+308.2950 	EXP 	Line_2: autoDraw = True
+308.2950 	EXP 	Line_3: autoDraw = True
+308.2950 	EXP 	Line_4: autoDraw = True
+309.2955 	EXP 	probe: autoDraw = True
+309.9981 	EXP 	New trial (rep=21, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+310.0000 	DATA 	Keypress: z
+310.0122 	EXP 	polygon: autoDraw = False
+310.0122 	EXP 	Line_1: autoDraw = False
+310.0122 	EXP 	Line_2: autoDraw = False
+310.0122 	EXP 	Line_3: autoDraw = False
+310.0122 	EXP 	Line_4: autoDraw = False
+310.0122 	EXP 	probe: autoDraw = False
+310.0122 	EXP 	polygon: autoDraw = True
+311.0129 	EXP 	polygon: autoDraw = False
+311.0129 	EXP 	Line_1: autoDraw = True
+311.0129 	EXP 	Line_2: autoDraw = True
+311.0129 	EXP 	Line_3: autoDraw = True
+311.0129 	EXP 	Line_4: autoDraw = True
+312.0128 	EXP 	probe: autoDraw = True
+312.5990 	EXP 	New trial (rep=21, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+312.6008 	DATA 	Keypress: x
+312.6130 	EXP 	polygon: autoDraw = False
+312.6130 	EXP 	Line_1: autoDraw = False
+312.6130 	EXP 	Line_2: autoDraw = False
+312.6130 	EXP 	Line_3: autoDraw = False
+312.6130 	EXP 	Line_4: autoDraw = False
+312.6130 	EXP 	probe: autoDraw = False
+312.6130 	EXP 	polygon: autoDraw = True
+313.6132 	EXP 	polygon: autoDraw = False
+313.6132 	EXP 	Line_1: autoDraw = True
+313.6132 	EXP 	Line_2: autoDraw = True
+313.6132 	EXP 	Line_3: autoDraw = True
+313.6132 	EXP 	Line_4: autoDraw = True
+314.6135 	EXP 	probe: autoDraw = True
+315.6836 	EXP 	New trial (rep=21, index=2): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+315.6855 	DATA 	Keypress: c
+315.6978 	EXP 	polygon: autoDraw = False
+315.6978 	EXP 	Line_1: autoDraw = False
+315.6978 	EXP 	Line_2: autoDraw = False
+315.6978 	EXP 	Line_3: autoDraw = False
+315.6978 	EXP 	Line_4: autoDraw = False
+315.6978 	EXP 	probe: autoDraw = False
+315.6978 	EXP 	polygon: autoDraw = True
+316.6979 	EXP 	polygon: autoDraw = False
+316.6979 	EXP 	Line_1: autoDraw = True
+316.6979 	EXP 	Line_2: autoDraw = True
+316.6979 	EXP 	Line_3: autoDraw = True
+316.6979 	EXP 	Line_4: autoDraw = True
+317.6982 	EXP 	probe: autoDraw = True
+318.1672 	EXP 	New trial (rep=21, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+318.1690 	DATA 	Keypress: y
+318.1813 	EXP 	polygon: autoDraw = False
+318.1813 	EXP 	Line_1: autoDraw = False
+318.1813 	EXP 	Line_2: autoDraw = False
+318.1813 	EXP 	Line_3: autoDraw = False
+318.1813 	EXP 	Line_4: autoDraw = False
+318.1813 	EXP 	probe: autoDraw = False
+318.1813 	EXP 	polygon: autoDraw = True
+319.1818 	EXP 	polygon: autoDraw = False
+319.1818 	EXP 	Line_1: autoDraw = True
+319.1818 	EXP 	Line_2: autoDraw = True
+319.1818 	EXP 	Line_3: autoDraw = True
+319.1818 	EXP 	Line_4: autoDraw = True
+320.1823 	EXP 	probe: autoDraw = True
+320.5178 	EXP 	New trial (rep=22, index=0): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+320.5195 	DATA 	Keypress: z
+320.5320 	EXP 	polygon: autoDraw = False
+320.5320 	EXP 	Line_1: autoDraw = False
+320.5320 	EXP 	Line_2: autoDraw = False
+320.5320 	EXP 	Line_3: autoDraw = False
+320.5320 	EXP 	Line_4: autoDraw = False
+320.5320 	EXP 	probe: autoDraw = False
+320.5320 	EXP 	polygon: autoDraw = True
+321.5323 	EXP 	polygon: autoDraw = False
+321.5323 	EXP 	Line_1: autoDraw = True
+321.5323 	EXP 	Line_2: autoDraw = True
+321.5323 	EXP 	Line_3: autoDraw = True
+321.5323 	EXP 	Line_4: autoDraw = True
+322.5326 	EXP 	probe: autoDraw = True
+323.1017 	EXP 	New trial (rep=22, index=1): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+323.1035 	DATA 	Keypress: c
+323.1160 	EXP 	polygon: autoDraw = False
+323.1160 	EXP 	Line_1: autoDraw = False
+323.1160 	EXP 	Line_2: autoDraw = False
+323.1160 	EXP 	Line_3: autoDraw = False
+323.1160 	EXP 	Line_4: autoDraw = False
+323.1160 	EXP 	probe: autoDraw = False
+323.1160 	EXP 	polygon: autoDraw = True
+324.1164 	EXP 	polygon: autoDraw = False
+324.1164 	EXP 	Line_1: autoDraw = True
+324.1164 	EXP 	Line_2: autoDraw = True
+324.1164 	EXP 	Line_3: autoDraw = True
+324.1164 	EXP 	Line_4: autoDraw = True
+325.1168 	EXP 	probe: autoDraw = True
+325.6365 	DATA 	Keypress: x
+325.6525 	EXP 	New trial (rep=22, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+325.6672 	EXP 	polygon: autoDraw = False
+325.6672 	EXP 	Line_1: autoDraw = False
+325.6672 	EXP 	Line_2: autoDraw = False
+325.6672 	EXP 	Line_3: autoDraw = False
+325.6672 	EXP 	Line_4: autoDraw = False
+325.6672 	EXP 	probe: autoDraw = False
+325.6672 	EXP 	polygon: autoDraw = True
+326.6672 	EXP 	polygon: autoDraw = False
+326.6672 	EXP 	Line_1: autoDraw = True
+326.6672 	EXP 	Line_2: autoDraw = True
+326.6672 	EXP 	Line_3: autoDraw = True
+326.6672 	EXP 	Line_4: autoDraw = True
+327.6510 	EXP 	probe: autoDraw = True
+328.1211 	EXP 	New trial (rep=22, index=3): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+328.1232 	DATA 	Keypress: z
+328.1345 	EXP 	polygon: autoDraw = False
+328.1345 	EXP 	Line_1: autoDraw = False
+328.1345 	EXP 	Line_2: autoDraw = False
+328.1345 	EXP 	Line_3: autoDraw = False
+328.1345 	EXP 	Line_4: autoDraw = False
+328.1345 	EXP 	probe: autoDraw = False
+328.1345 	EXP 	polygon: autoDraw = True
+329.1346 	EXP 	polygon: autoDraw = False
+329.1346 	EXP 	Line_1: autoDraw = True
+329.1346 	EXP 	Line_2: autoDraw = True
+329.1346 	EXP 	Line_3: autoDraw = True
+329.1346 	EXP 	Line_4: autoDraw = True
+330.1348 	EXP 	probe: autoDraw = True
+330.7715 	EXP 	New trial (rep=23, index=0): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+330.7736 	DATA 	Keypress: y
+330.7861 	EXP 	polygon: autoDraw = False
+330.7861 	EXP 	Line_1: autoDraw = False
+330.7861 	EXP 	Line_2: autoDraw = False
+330.7861 	EXP 	Line_3: autoDraw = False
+330.7861 	EXP 	Line_4: autoDraw = False
+330.7861 	EXP 	probe: autoDraw = False
+330.7861 	EXP 	polygon: autoDraw = True
+331.7856 	EXP 	polygon: autoDraw = False
+331.7856 	EXP 	Line_1: autoDraw = True
+331.7856 	EXP 	Line_2: autoDraw = True
+331.7856 	EXP 	Line_3: autoDraw = True
+331.7856 	EXP 	Line_4: autoDraw = True
+332.8502 	EXP 	probe: autoDraw = True
+333.4048 	EXP 	New trial (rep=23, index=1): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+333.4067 	DATA 	Keypress: y
+333.4191 	EXP 	polygon: autoDraw = False
+333.4191 	EXP 	Line_1: autoDraw = False
+333.4191 	EXP 	Line_2: autoDraw = False
+333.4191 	EXP 	Line_3: autoDraw = False
+333.4191 	EXP 	Line_4: autoDraw = False
+333.4191 	EXP 	probe: autoDraw = False
+333.4191 	EXP 	polygon: autoDraw = True
+334.4200 	EXP 	polygon: autoDraw = False
+334.4200 	EXP 	Line_1: autoDraw = True
+334.4200 	EXP 	Line_2: autoDraw = True
+334.4200 	EXP 	Line_3: autoDraw = True
+334.4200 	EXP 	Line_4: autoDraw = True
+335.4199 	EXP 	probe: autoDraw = True
+335.7431 	DATA 	Keypress: z
+335.7564 	EXP 	New trial (rep=23, index=2): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+335.7699 	EXP 	polygon: autoDraw = False
+335.7699 	EXP 	Line_1: autoDraw = False
+335.7699 	EXP 	Line_2: autoDraw = False
+335.7699 	EXP 	Line_3: autoDraw = False
+335.7699 	EXP 	Line_4: autoDraw = False
+335.7699 	EXP 	probe: autoDraw = False
+335.7699 	EXP 	polygon: autoDraw = True
+336.7705 	EXP 	polygon: autoDraw = False
+336.7705 	EXP 	Line_1: autoDraw = True
+336.7705 	EXP 	Line_2: autoDraw = True
+336.7705 	EXP 	Line_3: autoDraw = True
+336.7705 	EXP 	Line_4: autoDraw = True
+337.7717 	EXP 	probe: autoDraw = True
+338.2404 	EXP 	New trial (rep=23, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+338.2423 	DATA 	Keypress: x
+338.2543 	EXP 	polygon: autoDraw = False
+338.2543 	EXP 	Line_1: autoDraw = False
+338.2543 	EXP 	Line_2: autoDraw = False
+338.2543 	EXP 	Line_3: autoDraw = False
+338.2543 	EXP 	Line_4: autoDraw = False
+338.2543 	EXP 	probe: autoDraw = False
+338.2543 	EXP 	polygon: autoDraw = True
+339.2548 	EXP 	polygon: autoDraw = False
+339.2548 	EXP 	Line_1: autoDraw = True
+339.2548 	EXP 	Line_2: autoDraw = True
+339.2548 	EXP 	Line_3: autoDraw = True
+339.2548 	EXP 	Line_4: autoDraw = True
+340.2549 	EXP 	probe: autoDraw = True
+340.6628 	EXP 	Imported C:/Users/Dell 3148/Desktop/Data 2/Sequence condition.csv as conditions, 4 conditions, 2 params
+340.7019 	EXP 	Created sequence: sequential, trialTypes=4, nReps=24, seed=None
+340.7025 	EXP 	New trial (rep=0, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+340.7046 	DATA 	Keypress: c
+340.7124 	EXP 	polygon: autoDraw = False
+340.7124 	EXP 	Line_1: autoDraw = False
+340.7124 	EXP 	Line_2: autoDraw = False
+340.7124 	EXP 	Line_3: autoDraw = False
+340.7124 	EXP 	Line_4: autoDraw = False
+340.7124 	EXP 	probe: autoDraw = False
+340.7124 	EXP 	polygon: autoDraw = True
+341.6717 	EXP 	Line_1: autoDraw = True
+341.6717 	EXP 	Line_2: autoDraw = True
+341.6717 	EXP 	Line_3: autoDraw = True
+341.6717 	EXP 	Line_4: autoDraw = True
+341.7219 	EXP 	polygon: autoDraw = False
+342.6720 	EXP 	probe: autoDraw = True
+343.2581 	EXP 	New trial (rep=0, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+343.2599 	DATA 	Keypress: x
+343.2721 	EXP 	polygon: autoDraw = False
+343.2721 	EXP 	Line_1: autoDraw = False
+343.2721 	EXP 	Line_2: autoDraw = False
+343.2721 	EXP 	Line_3: autoDraw = False
+343.2721 	EXP 	Line_4: autoDraw = False
+343.2721 	EXP 	probe: autoDraw = False
+343.2721 	EXP 	polygon: autoDraw = True
+344.2728 	EXP 	polygon: autoDraw = False
+344.2728 	EXP 	Line_1: autoDraw = True
+344.2728 	EXP 	Line_2: autoDraw = True
+344.2728 	EXP 	Line_3: autoDraw = True
+344.2728 	EXP 	Line_4: autoDraw = True
+345.2732 	EXP 	probe: autoDraw = True
+345.6432 	EXP 	New trial (rep=0, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+345.6451 	DATA 	Keypress: y
+345.6570 	EXP 	polygon: autoDraw = False
+345.6570 	EXP 	Line_1: autoDraw = False
+345.6570 	EXP 	Line_2: autoDraw = False
+345.6570 	EXP 	Line_3: autoDraw = False
+345.6570 	EXP 	Line_4: autoDraw = False
+345.6570 	EXP 	probe: autoDraw = False
+345.6570 	EXP 	polygon: autoDraw = True
+346.6568 	EXP 	polygon: autoDraw = False
+346.6568 	EXP 	Line_1: autoDraw = True
+346.6568 	EXP 	Line_2: autoDraw = True
+346.6568 	EXP 	Line_3: autoDraw = True
+346.6568 	EXP 	Line_4: autoDraw = True
+347.6571 	EXP 	probe: autoDraw = True
+351.9277 	EXP 	New trial (rep=0, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+351.9295 	DATA 	Keypress: c
+351.9418 	EXP 	polygon: autoDraw = False
+351.9418 	EXP 	Line_1: autoDraw = False
+351.9418 	EXP 	Line_2: autoDraw = False
+351.9418 	EXP 	Line_3: autoDraw = False
+351.9418 	EXP 	Line_4: autoDraw = False
+351.9418 	EXP 	probe: autoDraw = False
+351.9418 	EXP 	polygon: autoDraw = True
+352.9421 	EXP 	polygon: autoDraw = False
+352.9421 	EXP 	Line_1: autoDraw = True
+352.9421 	EXP 	Line_2: autoDraw = True
+352.9421 	EXP 	Line_3: autoDraw = True
+352.9421 	EXP 	Line_4: autoDraw = True
+353.9421 	EXP 	probe: autoDraw = True
+355.3784 	EXP 	New trial (rep=1, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+355.3804 	DATA 	Keypress: lshift
+355.3928 	EXP 	polygon: autoDraw = False
+355.3928 	EXP 	Line_1: autoDraw = False
+355.3928 	EXP 	Line_2: autoDraw = False
+355.3928 	EXP 	Line_3: autoDraw = False
+355.3928 	EXP 	Line_4: autoDraw = False
+355.3928 	EXP 	probe: autoDraw = False
+355.3928 	EXP 	polygon: autoDraw = True
+356.3938 	EXP 	polygon: autoDraw = False
+356.3938 	EXP 	Line_1: autoDraw = True
+356.3938 	EXP 	Line_2: autoDraw = True
+356.3938 	EXP 	Line_3: autoDraw = True
+356.3938 	EXP 	Line_4: autoDraw = True
+356.4791 	DATA 	Mouse: Left button down, pos=(566,513)
+356.6131 	DATA 	Mouse:  Left button up, pos=(566,513)
+357.3934 	EXP 	probe: autoDraw = True
+357.9461 	EXP 	New trial (rep=1, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+357.9480 	DATA 	Keypress: x
+357.9601 	EXP 	polygon: autoDraw = False
+357.9601 	EXP 	Line_1: autoDraw = False
+357.9601 	EXP 	Line_2: autoDraw = False
+357.9601 	EXP 	Line_3: autoDraw = False
+357.9601 	EXP 	Line_4: autoDraw = False
+357.9601 	EXP 	probe: autoDraw = False
+357.9601 	EXP 	polygon: autoDraw = True
+358.9607 	EXP 	polygon: autoDraw = False
+358.9607 	EXP 	Line_1: autoDraw = True
+358.9607 	EXP 	Line_2: autoDraw = True
+358.9607 	EXP 	Line_3: autoDraw = True
+358.9607 	EXP 	Line_4: autoDraw = True
+359.9610 	EXP 	probe: autoDraw = True
+360.8809 	DATA 	Keypress: y
+360.8967 	EXP 	New trial (rep=1, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+360.9110 	EXP 	polygon: autoDraw = False
+360.9110 	EXP 	Line_1: autoDraw = False
+360.9110 	EXP 	Line_2: autoDraw = False
+360.9110 	EXP 	Line_3: autoDraw = False
+360.9110 	EXP 	Line_4: autoDraw = False
+360.9110 	EXP 	probe: autoDraw = False
+360.9110 	EXP 	polygon: autoDraw = True
+361.9113 	EXP 	polygon: autoDraw = False
+361.9113 	EXP 	Line_1: autoDraw = True
+361.9113 	EXP 	Line_2: autoDraw = True
+361.9113 	EXP 	Line_3: autoDraw = True
+361.9113 	EXP 	Line_4: autoDraw = True
+362.9114 	EXP 	probe: autoDraw = True
+363.5644 	EXP 	New trial (rep=1, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+363.5663 	DATA 	Keypress: c
+363.5783 	EXP 	polygon: autoDraw = False
+363.5783 	EXP 	Line_1: autoDraw = False
+363.5783 	EXP 	Line_2: autoDraw = False
+363.5783 	EXP 	Line_3: autoDraw = False
+363.5783 	EXP 	Line_4: autoDraw = False
+363.5783 	EXP 	probe: autoDraw = False
+363.5783 	EXP 	polygon: autoDraw = True
+364.5786 	EXP 	polygon: autoDraw = False
+364.5786 	EXP 	Line_1: autoDraw = True
+364.5786 	EXP 	Line_2: autoDraw = True
+364.5786 	EXP 	Line_3: autoDraw = True
+364.5786 	EXP 	Line_4: autoDraw = True
+365.5790 	EXP 	probe: autoDraw = True
+366.0149 	EXP 	New trial (rep=2, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+366.0167 	DATA 	Keypress: z
+366.0293 	EXP 	polygon: autoDraw = False
+366.0293 	EXP 	Line_1: autoDraw = False
+366.0293 	EXP 	Line_2: autoDraw = False
+366.0293 	EXP 	Line_3: autoDraw = False
+366.0293 	EXP 	Line_4: autoDraw = False
+366.0293 	EXP 	probe: autoDraw = False
+366.0293 	EXP 	polygon: autoDraw = True
+367.0299 	EXP 	polygon: autoDraw = False
+367.0299 	EXP 	Line_1: autoDraw = True
+367.0299 	EXP 	Line_2: autoDraw = True
+367.0299 	EXP 	Line_3: autoDraw = True
+367.0299 	EXP 	Line_4: autoDraw = True
+368.0301 	EXP 	probe: autoDraw = True
+368.9501 	DATA 	Keypress: x
+368.9660 	EXP 	New trial (rep=2, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+368.9801 	EXP 	polygon: autoDraw = False
+368.9801 	EXP 	Line_1: autoDraw = False
+368.9801 	EXP 	Line_2: autoDraw = False
+368.9801 	EXP 	Line_3: autoDraw = False
+368.9801 	EXP 	Line_4: autoDraw = False
+368.9801 	EXP 	probe: autoDraw = False
+368.9801 	EXP 	polygon: autoDraw = True
+369.9803 	EXP 	polygon: autoDraw = False
+369.9803 	EXP 	Line_1: autoDraw = True
+369.9803 	EXP 	Line_2: autoDraw = True
+369.9803 	EXP 	Line_3: autoDraw = True
+369.9803 	EXP 	Line_4: autoDraw = True
+370.9805 	EXP 	probe: autoDraw = True
+372.0505 	EXP 	New trial (rep=2, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+372.0524 	DATA 	Keypress: y
+372.0644 	EXP 	polygon: autoDraw = False
+372.0644 	EXP 	Line_1: autoDraw = False
+372.0644 	EXP 	Line_2: autoDraw = False
+372.0644 	EXP 	Line_3: autoDraw = False
+372.0644 	EXP 	Line_4: autoDraw = False
+372.0644 	EXP 	probe: autoDraw = False
+372.0644 	EXP 	polygon: autoDraw = True
+373.0648 	EXP 	polygon: autoDraw = False
+373.0648 	EXP 	Line_1: autoDraw = True
+373.0648 	EXP 	Line_2: autoDraw = True
+373.0648 	EXP 	Line_3: autoDraw = True
+373.0648 	EXP 	Line_4: autoDraw = True
+374.0482 	EXP 	probe: autoDraw = True
+374.8014 	EXP 	New trial (rep=2, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+374.8033 	DATA 	Keypress: c
+374.8150 	EXP 	polygon: autoDraw = False
+374.8150 	EXP 	Line_1: autoDraw = False
+374.8150 	EXP 	Line_2: autoDraw = False
+374.8150 	EXP 	Line_3: autoDraw = False
+374.8150 	EXP 	Line_4: autoDraw = False
+374.8150 	EXP 	probe: autoDraw = False
+374.8150 	EXP 	polygon: autoDraw = True
+375.8152 	EXP 	polygon: autoDraw = False
+375.8152 	EXP 	Line_1: autoDraw = True
+375.8152 	EXP 	Line_2: autoDraw = True
+375.8152 	EXP 	Line_3: autoDraw = True
+375.8152 	EXP 	Line_4: autoDraw = True
+376.8157 	EXP 	probe: autoDraw = True
+377.6355 	EXP 	New trial (rep=3, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+377.6374 	DATA 	Keypress: z
+377.6492 	EXP 	polygon: autoDraw = False
+377.6492 	EXP 	Line_1: autoDraw = False
+377.6492 	EXP 	Line_2: autoDraw = False
+377.6492 	EXP 	Line_3: autoDraw = False
+377.6492 	EXP 	Line_4: autoDraw = False
+377.6492 	EXP 	probe: autoDraw = False
+377.6492 	EXP 	polygon: autoDraw = True
+378.6497 	EXP 	polygon: autoDraw = False
+378.6497 	EXP 	Line_1: autoDraw = True
+378.6497 	EXP 	Line_2: autoDraw = True
+378.6497 	EXP 	Line_3: autoDraw = True
+378.6497 	EXP 	Line_4: autoDraw = True
+379.6499 	EXP 	probe: autoDraw = True
+379.9864 	EXP 	New trial (rep=3, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+379.9887 	DATA 	Keypress: x
+380.0005 	EXP 	polygon: autoDraw = False
+380.0005 	EXP 	Line_1: autoDraw = False
+380.0005 	EXP 	Line_2: autoDraw = False
+380.0005 	EXP 	Line_3: autoDraw = False
+380.0005 	EXP 	Line_4: autoDraw = False
+380.0005 	EXP 	probe: autoDraw = False
+380.0005 	EXP 	polygon: autoDraw = True
+381.0003 	EXP 	polygon: autoDraw = False
+381.0003 	EXP 	Line_1: autoDraw = True
+381.0003 	EXP 	Line_2: autoDraw = True
+381.0003 	EXP 	Line_3: autoDraw = True
+381.0003 	EXP 	Line_4: autoDraw = True
+382.0009 	EXP 	probe: autoDraw = True
+383.1536 	EXP 	New trial (rep=3, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+383.1555 	DATA 	Keypress: y
+383.1678 	EXP 	polygon: autoDraw = False
+383.1678 	EXP 	Line_1: autoDraw = False
+383.1678 	EXP 	Line_2: autoDraw = False
+383.1678 	EXP 	Line_3: autoDraw = False
+383.1678 	EXP 	Line_4: autoDraw = False
+383.1678 	EXP 	probe: autoDraw = False
+383.1678 	EXP 	polygon: autoDraw = True
+384.1679 	EXP 	polygon: autoDraw = False
+384.1679 	EXP 	Line_1: autoDraw = True
+384.1679 	EXP 	Line_2: autoDraw = True
+384.1679 	EXP 	Line_3: autoDraw = True
+384.1679 	EXP 	Line_4: autoDraw = True
+385.1686 	EXP 	probe: autoDraw = True
+385.9045 	EXP 	New trial (rep=3, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+385.9066 	DATA 	Keypress: c
+385.9185 	EXP 	polygon: autoDraw = False
+385.9185 	EXP 	Line_1: autoDraw = False
+385.9185 	EXP 	Line_2: autoDraw = False
+385.9185 	EXP 	Line_3: autoDraw = False
+385.9185 	EXP 	Line_4: autoDraw = False
+385.9185 	EXP 	probe: autoDraw = False
+385.9185 	EXP 	polygon: autoDraw = True
+386.9188 	EXP 	polygon: autoDraw = False
+386.9188 	EXP 	Line_1: autoDraw = True
+386.9188 	EXP 	Line_2: autoDraw = True
+386.9188 	EXP 	Line_3: autoDraw = True
+386.9188 	EXP 	Line_4: autoDraw = True
+387.9189 	EXP 	probe: autoDraw = True
+389.0722 	EXP 	New trial (rep=4, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+389.0741 	DATA 	Keypress: z
+389.0860 	EXP 	polygon: autoDraw = False
+389.0860 	EXP 	Line_1: autoDraw = False
+389.0860 	EXP 	Line_2: autoDraw = False
+389.0860 	EXP 	Line_3: autoDraw = False
+389.0860 	EXP 	Line_4: autoDraw = False
+389.0860 	EXP 	probe: autoDraw = False
+389.0860 	EXP 	polygon: autoDraw = True
+390.0865 	EXP 	polygon: autoDraw = False
+390.0865 	EXP 	Line_1: autoDraw = True
+390.0865 	EXP 	Line_2: autoDraw = True
+390.0865 	EXP 	Line_3: autoDraw = True
+390.0865 	EXP 	Line_4: autoDraw = True
+391.0866 	EXP 	probe: autoDraw = True
+391.4563 	EXP 	New trial (rep=4, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+391.4592 	DATA 	Keypress: x
+391.4710 	EXP 	polygon: autoDraw = False
+391.4710 	EXP 	Line_1: autoDraw = False
+391.4710 	EXP 	Line_2: autoDraw = False
+391.4710 	EXP 	Line_3: autoDraw = False
+391.4710 	EXP 	Line_4: autoDraw = False
+391.4710 	EXP 	probe: autoDraw = False
+391.4710 	EXP 	polygon: autoDraw = True
+392.4711 	EXP 	polygon: autoDraw = False
+392.4711 	EXP 	Line_1: autoDraw = True
+392.4711 	EXP 	Line_2: autoDraw = True
+392.4711 	EXP 	Line_3: autoDraw = True
+392.4711 	EXP 	Line_4: autoDraw = True
+393.4706 	EXP 	probe: autoDraw = True
+394.4067 	EXP 	New trial (rep=4, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+394.4085 	DATA 	Keypress: y
+394.4208 	EXP 	polygon: autoDraw = False
+394.4208 	EXP 	Line_1: autoDraw = False
+394.4208 	EXP 	Line_2: autoDraw = False
+394.4208 	EXP 	Line_3: autoDraw = False
+394.4208 	EXP 	Line_4: autoDraw = False
+394.4208 	EXP 	probe: autoDraw = False
+394.4208 	EXP 	polygon: autoDraw = True
+395.4211 	EXP 	polygon: autoDraw = False
+395.4211 	EXP 	Line_1: autoDraw = True
+395.4211 	EXP 	Line_2: autoDraw = True
+395.4211 	EXP 	Line_3: autoDraw = True
+395.4211 	EXP 	Line_4: autoDraw = True
+396.4215 	EXP 	probe: autoDraw = True
+397.2747 	EXP 	New trial (rep=4, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+397.2766 	DATA 	Keypress: c
+397.2884 	EXP 	polygon: autoDraw = False
+397.2884 	EXP 	Line_1: autoDraw = False
+397.2884 	EXP 	Line_2: autoDraw = False
+397.2884 	EXP 	Line_3: autoDraw = False
+397.2884 	EXP 	Line_4: autoDraw = False
+397.2884 	EXP 	probe: autoDraw = False
+397.2884 	EXP 	polygon: autoDraw = True
+398.2889 	EXP 	polygon: autoDraw = False
+398.2889 	EXP 	Line_1: autoDraw = True
+398.2889 	EXP 	Line_2: autoDraw = True
+398.2889 	EXP 	Line_3: autoDraw = True
+398.2889 	EXP 	Line_4: autoDraw = True
+399.2889 	EXP 	probe: autoDraw = True
+399.9926 	DATA 	Keypress: z
+400.0083 	EXP 	New trial (rep=5, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+400.0226 	EXP 	polygon: autoDraw = False
+400.0226 	EXP 	Line_1: autoDraw = False
+400.0226 	EXP 	Line_2: autoDraw = False
+400.0226 	EXP 	Line_3: autoDraw = False
+400.0226 	EXP 	Line_4: autoDraw = False
+400.0226 	EXP 	probe: autoDraw = False
+400.0226 	EXP 	polygon: autoDraw = True
+401.0229 	EXP 	polygon: autoDraw = False
+401.0229 	EXP 	Line_1: autoDraw = True
+401.0229 	EXP 	Line_2: autoDraw = True
+401.0229 	EXP 	Line_3: autoDraw = True
+401.0229 	EXP 	Line_4: autoDraw = True
+402.0067 	EXP 	probe: autoDraw = True
+402.4425 	EXP 	New trial (rep=5, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+402.4444 	DATA 	Keypress: x
+402.4568 	EXP 	polygon: autoDraw = False
+402.4568 	EXP 	Line_1: autoDraw = False
+402.4568 	EXP 	Line_2: autoDraw = False
+402.4568 	EXP 	Line_3: autoDraw = False
+402.4568 	EXP 	Line_4: autoDraw = False
+402.4568 	EXP 	probe: autoDraw = False
+402.4568 	EXP 	polygon: autoDraw = True
+403.4571 	EXP 	polygon: autoDraw = False
+403.4571 	EXP 	Line_1: autoDraw = True
+403.4571 	EXP 	Line_2: autoDraw = True
+403.4571 	EXP 	Line_3: autoDraw = True
+403.4571 	EXP 	Line_4: autoDraw = True
+404.4574 	EXP 	probe: autoDraw = True
+405.4605 	EXP 	New trial (rep=5, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+405.4623 	DATA 	Keypress: y
+405.4744 	EXP 	polygon: autoDraw = False
+405.4744 	EXP 	Line_1: autoDraw = False
+405.4744 	EXP 	Line_2: autoDraw = False
+405.4744 	EXP 	Line_3: autoDraw = False
+405.4744 	EXP 	Line_4: autoDraw = False
+405.4744 	EXP 	probe: autoDraw = False
+405.4744 	EXP 	polygon: autoDraw = True
+406.4748 	EXP 	polygon: autoDraw = False
+406.4748 	EXP 	Line_1: autoDraw = True
+406.4748 	EXP 	Line_2: autoDraw = True
+406.4748 	EXP 	Line_3: autoDraw = True
+406.4748 	EXP 	Line_4: autoDraw = True
+407.4752 	EXP 	probe: autoDraw = True
+408.3279 	DATA 	Keypress: c
+408.3438 	EXP 	New trial (rep=5, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+408.3582 	EXP 	polygon: autoDraw = False
+408.3582 	EXP 	Line_1: autoDraw = False
+408.3582 	EXP 	Line_2: autoDraw = False
+408.3582 	EXP 	Line_3: autoDraw = False
+408.3582 	EXP 	Line_4: autoDraw = False
+408.3582 	EXP 	probe: autoDraw = False
+408.3582 	EXP 	polygon: autoDraw = True
+409.3586 	EXP 	polygon: autoDraw = False
+409.3586 	EXP 	Line_1: autoDraw = True
+409.3586 	EXP 	Line_2: autoDraw = True
+409.3586 	EXP 	Line_3: autoDraw = True
+409.3586 	EXP 	Line_4: autoDraw = True
+410.3593 	EXP 	probe: autoDraw = True
+410.6782 	EXP 	New trial (rep=6, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+410.6800 	DATA 	Keypress: z
+410.6926 	EXP 	polygon: autoDraw = False
+410.6926 	EXP 	Line_1: autoDraw = False
+410.6926 	EXP 	Line_2: autoDraw = False
+410.6926 	EXP 	Line_3: autoDraw = False
+410.6926 	EXP 	Line_4: autoDraw = False
+410.6926 	EXP 	probe: autoDraw = False
+410.6926 	EXP 	polygon: autoDraw = True
+411.6926 	EXP 	polygon: autoDraw = False
+411.6926 	EXP 	Line_1: autoDraw = True
+411.6926 	EXP 	Line_2: autoDraw = True
+411.6926 	EXP 	Line_3: autoDraw = True
+411.6926 	EXP 	Line_4: autoDraw = True
+412.6769 	EXP 	probe: autoDraw = True
+413.1286 	EXP 	New trial (rep=6, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+413.1304 	DATA 	Keypress: x
+413.1433 	EXP 	polygon: autoDraw = False
+413.1433 	EXP 	Line_1: autoDraw = False
+413.1433 	EXP 	Line_2: autoDraw = False
+413.1433 	EXP 	Line_3: autoDraw = False
+413.1433 	EXP 	Line_4: autoDraw = False
+413.1433 	EXP 	probe: autoDraw = False
+413.1433 	EXP 	polygon: autoDraw = True
+414.1437 	EXP 	polygon: autoDraw = False
+414.1437 	EXP 	Line_1: autoDraw = True
+414.1437 	EXP 	Line_2: autoDraw = True
+414.1437 	EXP 	Line_3: autoDraw = True
+414.1437 	EXP 	Line_4: autoDraw = True
+415.1438 	EXP 	probe: autoDraw = True
+415.4800 	DATA 	Keypress: y
+415.4959 	EXP 	New trial (rep=6, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+415.5104 	EXP 	polygon: autoDraw = False
+415.5104 	EXP 	Line_1: autoDraw = False
+415.5104 	EXP 	Line_2: autoDraw = False
+415.5104 	EXP 	Line_3: autoDraw = False
+415.5104 	EXP 	Line_4: autoDraw = False
+415.5104 	EXP 	probe: autoDraw = False
+415.5104 	EXP 	polygon: autoDraw = True
+416.5107 	EXP 	polygon: autoDraw = False
+416.5107 	EXP 	Line_1: autoDraw = True
+416.5107 	EXP 	Line_2: autoDraw = True
+416.5107 	EXP 	Line_3: autoDraw = True
+416.5107 	EXP 	Line_4: autoDraw = True
+417.4951 	EXP 	probe: autoDraw = True
+417.8970 	EXP 	New trial (rep=6, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+417.8987 	DATA 	Keypress: c
+417.9114 	EXP 	polygon: autoDraw = False
+417.9114 	EXP 	Line_1: autoDraw = False
+417.9114 	EXP 	Line_2: autoDraw = False
+417.9114 	EXP 	Line_3: autoDraw = False
+417.9114 	EXP 	Line_4: autoDraw = False
+417.9114 	EXP 	probe: autoDraw = False
+417.9114 	EXP 	polygon: autoDraw = True
+418.9115 	EXP 	polygon: autoDraw = False
+418.9115 	EXP 	Line_1: autoDraw = True
+418.9115 	EXP 	Line_2: autoDraw = True
+418.9115 	EXP 	Line_3: autoDraw = True
+418.9115 	EXP 	Line_4: autoDraw = True
+419.9117 	EXP 	probe: autoDraw = True
+420.1812 	EXP 	New trial (rep=7, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+420.1829 	DATA 	Keypress: z
+420.1952 	EXP 	polygon: autoDraw = False
+420.1952 	EXP 	Line_1: autoDraw = False
+420.1952 	EXP 	Line_2: autoDraw = False
+420.1952 	EXP 	Line_3: autoDraw = False
+420.1952 	EXP 	Line_4: autoDraw = False
+420.1952 	EXP 	probe: autoDraw = False
+420.1952 	EXP 	polygon: autoDraw = True
+421.1961 	EXP 	polygon: autoDraw = False
+421.1961 	EXP 	Line_1: autoDraw = True
+421.1961 	EXP 	Line_2: autoDraw = True
+421.1961 	EXP 	Line_3: autoDraw = True
+421.1961 	EXP 	Line_4: autoDraw = True
+422.1958 	EXP 	probe: autoDraw = True
+422.4650 	EXP 	New trial (rep=7, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+422.4670 	DATA 	Keypress: x
+422.4793 	EXP 	polygon: autoDraw = False
+422.4793 	EXP 	Line_1: autoDraw = False
+422.4793 	EXP 	Line_2: autoDraw = False
+422.4793 	EXP 	Line_3: autoDraw = False
+422.4793 	EXP 	Line_4: autoDraw = False
+422.4793 	EXP 	probe: autoDraw = False
+422.4793 	EXP 	polygon: autoDraw = True
+423.4794 	EXP 	polygon: autoDraw = False
+423.4794 	EXP 	Line_1: autoDraw = True
+423.4794 	EXP 	Line_2: autoDraw = True
+423.4794 	EXP 	Line_3: autoDraw = True
+423.4794 	EXP 	Line_4: autoDraw = True
+424.4801 	EXP 	probe: autoDraw = True
+424.8322 	EXP 	New trial (rep=7, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+424.8340 	DATA 	Keypress: y
+424.8468 	EXP 	polygon: autoDraw = False
+424.8468 	EXP 	Line_1: autoDraw = False
+424.8468 	EXP 	Line_2: autoDraw = False
+424.8468 	EXP 	Line_3: autoDraw = False
+424.8468 	EXP 	Line_4: autoDraw = False
+424.8468 	EXP 	probe: autoDraw = False
+424.8468 	EXP 	polygon: autoDraw = True
+425.8471 	EXP 	polygon: autoDraw = False
+425.8471 	EXP 	Line_1: autoDraw = True
+425.8471 	EXP 	Line_2: autoDraw = True
+425.8471 	EXP 	Line_3: autoDraw = True
+425.8471 	EXP 	Line_4: autoDraw = True
+426.8471 	EXP 	probe: autoDraw = True
+427.1343 	EXP 	New trial (rep=7, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+427.1364 	DATA 	Keypress: c
+427.1479 	EXP 	polygon: autoDraw = False
+427.1479 	EXP 	Line_1: autoDraw = False
+427.1479 	EXP 	Line_2: autoDraw = False
+427.1479 	EXP 	Line_3: autoDraw = False
+427.1479 	EXP 	Line_4: autoDraw = False
+427.1479 	EXP 	probe: autoDraw = False
+427.1479 	EXP 	polygon: autoDraw = True
+428.1478 	EXP 	polygon: autoDraw = False
+428.1478 	EXP 	Line_1: autoDraw = True
+428.1478 	EXP 	Line_2: autoDraw = True
+428.1478 	EXP 	Line_3: autoDraw = True
+428.1478 	EXP 	Line_4: autoDraw = True
+429.1482 	EXP 	probe: autoDraw = True
+429.4343 	EXP 	New trial (rep=8, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+429.4361 	DATA 	Keypress: z
+429.4481 	EXP 	polygon: autoDraw = False
+429.4481 	EXP 	Line_1: autoDraw = False
+429.4481 	EXP 	Line_2: autoDraw = False
+429.4481 	EXP 	Line_3: autoDraw = False
+429.4481 	EXP 	Line_4: autoDraw = False
+429.4481 	EXP 	probe: autoDraw = False
+429.4481 	EXP 	polygon: autoDraw = True
+430.4485 	EXP 	polygon: autoDraw = False
+430.4485 	EXP 	Line_1: autoDraw = True
+430.4485 	EXP 	Line_2: autoDraw = True
+430.4485 	EXP 	Line_3: autoDraw = True
+430.4485 	EXP 	Line_4: autoDraw = True
+431.4488 	EXP 	probe: autoDraw = True
+431.8013 	EXP 	New trial (rep=8, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+431.8031 	DATA 	Keypress: x
+431.8158 	EXP 	polygon: autoDraw = False
+431.8158 	EXP 	Line_1: autoDraw = False
+431.8158 	EXP 	Line_2: autoDraw = False
+431.8158 	EXP 	Line_3: autoDraw = False
+431.8158 	EXP 	Line_4: autoDraw = False
+431.8158 	EXP 	probe: autoDraw = False
+431.8158 	EXP 	polygon: autoDraw = True
+432.8157 	EXP 	polygon: autoDraw = False
+432.8157 	EXP 	Line_1: autoDraw = True
+432.8157 	EXP 	Line_2: autoDraw = True
+432.8157 	EXP 	Line_3: autoDraw = True
+432.8157 	EXP 	Line_4: autoDraw = True
+433.8162 	EXP 	probe: autoDraw = True
+434.2687 	EXP 	New trial (rep=8, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+434.2705 	DATA 	Keypress: y
+434.2827 	EXP 	polygon: autoDraw = False
+434.2827 	EXP 	Line_1: autoDraw = False
+434.2827 	EXP 	Line_2: autoDraw = False
+434.2827 	EXP 	Line_3: autoDraw = False
+434.2827 	EXP 	Line_4: autoDraw = False
+434.2827 	EXP 	probe: autoDraw = False
+434.2827 	EXP 	polygon: autoDraw = True
+435.2833 	EXP 	polygon: autoDraw = False
+435.2833 	EXP 	Line_1: autoDraw = True
+435.2833 	EXP 	Line_2: autoDraw = True
+435.2833 	EXP 	Line_3: autoDraw = True
+435.2833 	EXP 	Line_4: autoDraw = True
+436.2837 	EXP 	probe: autoDraw = True
+436.5538 	DATA 	Keypress: c
+436.5699 	EXP 	New trial (rep=8, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+436.5840 	EXP 	polygon: autoDraw = False
+436.5840 	EXP 	Line_1: autoDraw = False
+436.5840 	EXP 	Line_2: autoDraw = False
+436.5840 	EXP 	Line_3: autoDraw = False
+436.5840 	EXP 	Line_4: autoDraw = False
+436.5840 	EXP 	probe: autoDraw = False
+436.5840 	EXP 	polygon: autoDraw = True
+437.5842 	EXP 	polygon: autoDraw = False
+437.5842 	EXP 	Line_1: autoDraw = True
+437.5842 	EXP 	Line_2: autoDraw = True
+437.5842 	EXP 	Line_3: autoDraw = True
+437.5842 	EXP 	Line_4: autoDraw = True
+438.5843 	EXP 	probe: autoDraw = True
+439.0214 	DATA 	Keypress: z
+439.0369 	EXP 	New trial (rep=9, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+439.0514 	EXP 	polygon: autoDraw = False
+439.0514 	EXP 	Line_1: autoDraw = False
+439.0514 	EXP 	Line_2: autoDraw = False
+439.0514 	EXP 	Line_3: autoDraw = False
+439.0514 	EXP 	Line_4: autoDraw = False
+439.0514 	EXP 	probe: autoDraw = False
+439.0514 	EXP 	polygon: autoDraw = True
+440.0513 	EXP 	polygon: autoDraw = False
+440.0513 	EXP 	Line_1: autoDraw = True
+440.0513 	EXP 	Line_2: autoDraw = True
+440.0513 	EXP 	Line_3: autoDraw = True
+440.0513 	EXP 	Line_4: autoDraw = True
+441.0514 	EXP 	probe: autoDraw = True
+441.2714 	DATA 	Keypress: x
+441.2874 	EXP 	New trial (rep=9, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+441.3019 	EXP 	polygon: autoDraw = False
+441.3019 	EXP 	Line_1: autoDraw = False
+441.3019 	EXP 	Line_2: autoDraw = False
+441.3019 	EXP 	Line_3: autoDraw = False
+441.3019 	EXP 	Line_4: autoDraw = False
+441.3019 	EXP 	probe: autoDraw = False
+441.3019 	EXP 	polygon: autoDraw = True
+442.3018 	EXP 	polygon: autoDraw = False
+442.3018 	EXP 	Line_1: autoDraw = True
+442.3018 	EXP 	Line_2: autoDraw = True
+442.3018 	EXP 	Line_3: autoDraw = True
+442.3018 	EXP 	Line_4: autoDraw = True
+443.3024 	EXP 	probe: autoDraw = True
+443.5387 	EXP 	New trial (rep=9, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+443.5404 	DATA 	Keypress: y
+443.5529 	EXP 	polygon: autoDraw = False
+443.5529 	EXP 	Line_1: autoDraw = False
+443.5529 	EXP 	Line_2: autoDraw = False
+443.5529 	EXP 	Line_3: autoDraw = False
+443.5529 	EXP 	Line_4: autoDraw = False
+443.5529 	EXP 	probe: autoDraw = False
+443.5529 	EXP 	polygon: autoDraw = True
+444.5528 	EXP 	polygon: autoDraw = False
+444.5528 	EXP 	Line_1: autoDraw = True
+444.5528 	EXP 	Line_2: autoDraw = True
+444.5528 	EXP 	Line_3: autoDraw = True
+444.5528 	EXP 	Line_4: autoDraw = True
+445.5532 	EXP 	probe: autoDraw = True
+445.8385 	EXP 	New trial (rep=9, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+445.8403 	DATA 	Keypress: c
+445.8531 	EXP 	polygon: autoDraw = False
+445.8531 	EXP 	Line_1: autoDraw = False
+445.8531 	EXP 	Line_2: autoDraw = False
+445.8531 	EXP 	Line_3: autoDraw = False
+445.8531 	EXP 	Line_4: autoDraw = False
+445.8531 	EXP 	probe: autoDraw = False
+445.8531 	EXP 	polygon: autoDraw = True
+446.8531 	EXP 	polygon: autoDraw = False
+446.8531 	EXP 	Line_1: autoDraw = True
+446.8531 	EXP 	Line_2: autoDraw = True
+446.8531 	EXP 	Line_3: autoDraw = True
+446.8531 	EXP 	Line_4: autoDraw = True
+447.8537 	EXP 	probe: autoDraw = True
+448.1062 	EXP 	New trial (rep=10, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+448.1081 	DATA 	Keypress: z
+448.1205 	EXP 	polygon: autoDraw = False
+448.1205 	EXP 	Line_1: autoDraw = False
+448.1205 	EXP 	Line_2: autoDraw = False
+448.1205 	EXP 	Line_3: autoDraw = False
+448.1205 	EXP 	Line_4: autoDraw = False
+448.1205 	EXP 	probe: autoDraw = False
+448.1205 	EXP 	polygon: autoDraw = True
+449.1208 	EXP 	polygon: autoDraw = False
+449.1208 	EXP 	Line_1: autoDraw = True
+449.1208 	EXP 	Line_2: autoDraw = True
+449.1208 	EXP 	Line_3: autoDraw = True
+449.1208 	EXP 	Line_4: autoDraw = True
+450.1211 	EXP 	probe: autoDraw = True
+450.9907 	EXP 	New trial (rep=10, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+450.9925 	DATA 	Keypress: x
+451.0047 	EXP 	polygon: autoDraw = False
+451.0047 	EXP 	Line_1: autoDraw = False
+451.0047 	EXP 	Line_2: autoDraw = False
+451.0047 	EXP 	Line_3: autoDraw = False
+451.0047 	EXP 	Line_4: autoDraw = False
+451.0047 	EXP 	probe: autoDraw = False
+451.0047 	EXP 	polygon: autoDraw = True
+452.0048 	EXP 	polygon: autoDraw = False
+452.0048 	EXP 	Line_1: autoDraw = True
+452.0048 	EXP 	Line_2: autoDraw = True
+452.0048 	EXP 	Line_3: autoDraw = True
+452.0048 	EXP 	Line_4: autoDraw = True
+453.0053 	EXP 	probe: autoDraw = True
+453.2920 	DATA 	Keypress: y
+453.3087 	EXP 	New trial (rep=10, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+453.3221 	EXP 	polygon: autoDraw = False
+453.3221 	EXP 	Line_1: autoDraw = False
+453.3221 	EXP 	Line_2: autoDraw = False
+453.3221 	EXP 	Line_3: autoDraw = False
+453.3221 	EXP 	Line_4: autoDraw = False
+453.3221 	EXP 	probe: autoDraw = False
+453.3221 	EXP 	polygon: autoDraw = True
+454.3225 	EXP 	polygon: autoDraw = False
+454.3225 	EXP 	Line_1: autoDraw = True
+454.3225 	EXP 	Line_2: autoDraw = True
+454.3225 	EXP 	Line_3: autoDraw = True
+454.3225 	EXP 	Line_4: autoDraw = True
+455.3225 	EXP 	probe: autoDraw = True
+455.5934 	DATA 	Keypress: c
+455.6090 	EXP 	New trial (rep=10, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+455.6226 	EXP 	polygon: autoDraw = False
+455.6226 	EXP 	Line_1: autoDraw = False
+455.6226 	EXP 	Line_2: autoDraw = False
+455.6226 	EXP 	Line_3: autoDraw = False
+455.6226 	EXP 	Line_4: autoDraw = False
+455.6226 	EXP 	probe: autoDraw = False
+455.6226 	EXP 	polygon: autoDraw = True
+456.6234 	EXP 	polygon: autoDraw = False
+456.6234 	EXP 	Line_1: autoDraw = True
+456.6234 	EXP 	Line_2: autoDraw = True
+456.6234 	EXP 	Line_3: autoDraw = True
+456.6234 	EXP 	Line_4: autoDraw = True
+457.6232 	EXP 	probe: autoDraw = True
+457.9094 	EXP 	New trial (rep=11, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+457.9113 	DATA 	Keypress: z
+457.9233 	EXP 	polygon: autoDraw = False
+457.9233 	EXP 	Line_1: autoDraw = False
+457.9233 	EXP 	Line_2: autoDraw = False
+457.9233 	EXP 	Line_3: autoDraw = False
+457.9233 	EXP 	Line_4: autoDraw = False
+457.9233 	EXP 	probe: autoDraw = False
+457.9233 	EXP 	polygon: autoDraw = True
+458.9237 	EXP 	polygon: autoDraw = False
+458.9237 	EXP 	Line_1: autoDraw = True
+458.9237 	EXP 	Line_2: autoDraw = True
+458.9237 	EXP 	Line_3: autoDraw = True
+458.9237 	EXP 	Line_4: autoDraw = True
+459.9239 	EXP 	probe: autoDraw = True
+460.2097 	EXP 	New trial (rep=11, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+460.2116 	DATA 	Keypress: x
+460.2239 	EXP 	polygon: autoDraw = False
+460.2239 	EXP 	Line_1: autoDraw = False
+460.2239 	EXP 	Line_2: autoDraw = False
+460.2239 	EXP 	Line_3: autoDraw = False
+460.2239 	EXP 	Line_4: autoDraw = False
+460.2239 	EXP 	probe: autoDraw = False
+460.2239 	EXP 	polygon: autoDraw = True
+461.2243 	EXP 	polygon: autoDraw = False
+461.2243 	EXP 	Line_1: autoDraw = True
+461.2243 	EXP 	Line_2: autoDraw = True
+461.2243 	EXP 	Line_3: autoDraw = True
+461.2243 	EXP 	Line_4: autoDraw = True
+462.2246 	EXP 	probe: autoDraw = True
+462.4772 	EXP 	New trial (rep=11, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+462.4791 	DATA 	Keypress: y
+462.4913 	EXP 	polygon: autoDraw = False
+462.4913 	EXP 	Line_1: autoDraw = False
+462.4913 	EXP 	Line_2: autoDraw = False
+462.4913 	EXP 	Line_3: autoDraw = False
+462.4913 	EXP 	Line_4: autoDraw = False
+462.4913 	EXP 	probe: autoDraw = False
+462.4913 	EXP 	polygon: autoDraw = True
+463.4917 	EXP 	polygon: autoDraw = False
+463.4917 	EXP 	Line_1: autoDraw = True
+463.4917 	EXP 	Line_2: autoDraw = True
+463.4917 	EXP 	Line_3: autoDraw = True
+463.4917 	EXP 	Line_4: autoDraw = True
+464.0112 	DATA 	Keypress: c
+464.4919 	EXP 	probe: autoDraw = True
+465.8788 	DATA 	Keypress: c
+465.8949 	EXP 	New trial (rep=11, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+465.9091 	EXP 	polygon: autoDraw = False
+465.9091 	EXP 	Line_1: autoDraw = False
+465.9091 	EXP 	Line_2: autoDraw = False
+465.9091 	EXP 	Line_3: autoDraw = False
+465.9091 	EXP 	Line_4: autoDraw = False
+465.9091 	EXP 	probe: autoDraw = False
+465.9091 	EXP 	polygon: autoDraw = True
+466.9094 	EXP 	polygon: autoDraw = False
+466.9094 	EXP 	Line_1: autoDraw = True
+466.9094 	EXP 	Line_2: autoDraw = True
+466.9094 	EXP 	Line_3: autoDraw = True
+466.9094 	EXP 	Line_4: autoDraw = True
+467.9099 	EXP 	probe: autoDraw = True
+468.1957 	EXP 	New trial (rep=12, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+468.1976 	DATA 	Keypress: z
+468.2099 	EXP 	polygon: autoDraw = False
+468.2099 	EXP 	Line_1: autoDraw = False
+468.2099 	EXP 	Line_2: autoDraw = False
+468.2099 	EXP 	Line_3: autoDraw = False
+468.2099 	EXP 	Line_4: autoDraw = False
+468.2099 	EXP 	probe: autoDraw = False
+468.2099 	EXP 	polygon: autoDraw = True
+469.2101 	EXP 	polygon: autoDraw = False
+469.2101 	EXP 	Line_1: autoDraw = True
+469.2101 	EXP 	Line_2: autoDraw = True
+469.2101 	EXP 	Line_3: autoDraw = True
+469.2101 	EXP 	Line_4: autoDraw = True
+469.8627 	DATA 	Keypress: x
+470.2104 	EXP 	probe: autoDraw = True
+471.1803 	EXP 	New trial (rep=12, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+471.1825 	DATA 	Keypress: x
+471.1940 	EXP 	polygon: autoDraw = False
+471.1940 	EXP 	Line_1: autoDraw = False
+471.1940 	EXP 	Line_2: autoDraw = False
+471.1940 	EXP 	Line_3: autoDraw = False
+471.1940 	EXP 	Line_4: autoDraw = False
+471.1940 	EXP 	probe: autoDraw = False
+471.1940 	EXP 	polygon: autoDraw = True
+472.1941 	EXP 	polygon: autoDraw = False
+472.1941 	EXP 	Line_1: autoDraw = True
+472.1941 	EXP 	Line_2: autoDraw = True
+472.1941 	EXP 	Line_3: autoDraw = True
+472.1941 	EXP 	Line_4: autoDraw = True
+472.6649 	DATA 	Keypress: y
+473.1946 	EXP 	probe: autoDraw = True
+474.1472 	EXP 	New trial (rep=12, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+474.1490 	DATA 	Keypress: y
+474.1614 	EXP 	polygon: autoDraw = False
+474.1614 	EXP 	Line_1: autoDraw = False
+474.1614 	EXP 	Line_2: autoDraw = False
+474.1614 	EXP 	Line_3: autoDraw = False
+474.1614 	EXP 	Line_4: autoDraw = False
+474.1614 	EXP 	probe: autoDraw = False
+474.1614 	EXP 	polygon: autoDraw = True
+475.1616 	EXP 	polygon: autoDraw = False
+475.1616 	EXP 	Line_1: autoDraw = True
+475.1616 	EXP 	Line_2: autoDraw = True
+475.1616 	EXP 	Line_3: autoDraw = True
+475.1616 	EXP 	Line_4: autoDraw = True
+476.1621 	EXP 	probe: autoDraw = True
+476.4316 	EXP 	New trial (rep=12, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+476.4335 	DATA 	Keypress: c
+476.4456 	EXP 	polygon: autoDraw = False
+476.4456 	EXP 	Line_1: autoDraw = False
+476.4456 	EXP 	Line_2: autoDraw = False
+476.4456 	EXP 	Line_3: autoDraw = False
+476.4456 	EXP 	Line_4: autoDraw = False
+476.4456 	EXP 	probe: autoDraw = False
+476.4456 	EXP 	polygon: autoDraw = True
+477.4460 	EXP 	polygon: autoDraw = False
+477.4460 	EXP 	Line_1: autoDraw = True
+477.4460 	EXP 	Line_2: autoDraw = True
+477.4460 	EXP 	Line_3: autoDraw = True
+477.4460 	EXP 	Line_4: autoDraw = True
+478.4460 	EXP 	probe: autoDraw = True
+478.7164 	DATA 	Keypress: z
+478.7323 	EXP 	New trial (rep=13, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+478.7461 	EXP 	polygon: autoDraw = False
+478.7461 	EXP 	Line_1: autoDraw = False
+478.7461 	EXP 	Line_2: autoDraw = False
+478.7461 	EXP 	Line_3: autoDraw = False
+478.7461 	EXP 	Line_4: autoDraw = False
+478.7461 	EXP 	probe: autoDraw = False
+478.7461 	EXP 	polygon: autoDraw = True
+479.7465 	EXP 	polygon: autoDraw = False
+479.7465 	EXP 	Line_1: autoDraw = True
+479.7465 	EXP 	Line_2: autoDraw = True
+479.7465 	EXP 	Line_3: autoDraw = True
+479.7465 	EXP 	Line_4: autoDraw = True
+480.7466 	EXP 	probe: autoDraw = True
+481.0329 	EXP 	New trial (rep=13, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+481.0350 	DATA 	Keypress: x
+481.0469 	EXP 	polygon: autoDraw = False
+481.0469 	EXP 	Line_1: autoDraw = False
+481.0469 	EXP 	Line_2: autoDraw = False
+481.0469 	EXP 	Line_3: autoDraw = False
+481.0469 	EXP 	Line_4: autoDraw = False
+481.0469 	EXP 	probe: autoDraw = False
+481.0469 	EXP 	polygon: autoDraw = True
+482.0471 	EXP 	polygon: autoDraw = False
+482.0471 	EXP 	Line_1: autoDraw = True
+482.0471 	EXP 	Line_2: autoDraw = True
+482.0471 	EXP 	Line_3: autoDraw = True
+482.0471 	EXP 	Line_4: autoDraw = True
+483.0475 	EXP 	probe: autoDraw = True
+483.3836 	EXP 	New trial (rep=13, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+483.3856 	DATA 	Keypress: y
+483.3975 	EXP 	polygon: autoDraw = False
+483.3975 	EXP 	Line_1: autoDraw = False
+483.3975 	EXP 	Line_2: autoDraw = False
+483.3975 	EXP 	Line_3: autoDraw = False
+483.3975 	EXP 	Line_4: autoDraw = False
+483.3975 	EXP 	probe: autoDraw = False
+483.3975 	EXP 	polygon: autoDraw = True
+484.3979 	EXP 	polygon: autoDraw = False
+484.3979 	EXP 	Line_1: autoDraw = True
+484.3979 	EXP 	Line_2: autoDraw = True
+484.3979 	EXP 	Line_3: autoDraw = True
+484.3979 	EXP 	Line_4: autoDraw = True
+485.3981 	EXP 	probe: autoDraw = True
+485.6680 	DATA 	Keypress: c
+485.6842 	EXP 	New trial (rep=13, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+485.6985 	EXP 	polygon: autoDraw = False
+485.6985 	EXP 	Line_1: autoDraw = False
+485.6985 	EXP 	Line_2: autoDraw = False
+485.6985 	EXP 	Line_3: autoDraw = False
+485.6985 	EXP 	Line_4: autoDraw = False
+485.6985 	EXP 	probe: autoDraw = False
+485.6985 	EXP 	polygon: autoDraw = True
+486.6986 	EXP 	polygon: autoDraw = False
+486.6986 	EXP 	Line_1: autoDraw = True
+486.6986 	EXP 	Line_2: autoDraw = True
+486.6986 	EXP 	Line_3: autoDraw = True
+486.6986 	EXP 	Line_4: autoDraw = True
+487.6988 	EXP 	probe: autoDraw = True
+487.9846 	EXP 	New trial (rep=14, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+487.9863 	DATA 	Keypress: z
+487.9989 	EXP 	polygon: autoDraw = False
+487.9989 	EXP 	Line_1: autoDraw = False
+487.9989 	EXP 	Line_2: autoDraw = False
+487.9989 	EXP 	Line_3: autoDraw = False
+487.9989 	EXP 	Line_4: autoDraw = False
+487.9989 	EXP 	probe: autoDraw = False
+487.9989 	EXP 	polygon: autoDraw = True
+488.9991 	EXP 	polygon: autoDraw = False
+488.9991 	EXP 	Line_1: autoDraw = True
+488.9991 	EXP 	Line_2: autoDraw = True
+488.9991 	EXP 	Line_3: autoDraw = True
+488.9991 	EXP 	Line_4: autoDraw = True
+489.9993 	EXP 	probe: autoDraw = True
+490.3183 	EXP 	New trial (rep=14, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+490.3201 	DATA 	Keypress: c
+490.3326 	EXP 	polygon: autoDraw = False
+490.3326 	EXP 	Line_1: autoDraw = False
+490.3326 	EXP 	Line_2: autoDraw = False
+490.3326 	EXP 	Line_3: autoDraw = False
+490.3326 	EXP 	Line_4: autoDraw = False
+490.3326 	EXP 	probe: autoDraw = False
+490.3326 	EXP 	polygon: autoDraw = True
+491.3333 	EXP 	polygon: autoDraw = False
+491.3333 	EXP 	Line_1: autoDraw = True
+491.3333 	EXP 	Line_2: autoDraw = True
+491.3333 	EXP 	Line_3: autoDraw = True
+491.3333 	EXP 	Line_4: autoDraw = True
+492.3334 	EXP 	probe: autoDraw = True
+492.6189 	EXP 	New trial (rep=14, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+492.6207 	DATA 	Keypress: y
+492.6336 	EXP 	polygon: autoDraw = False
+492.6336 	EXP 	Line_1: autoDraw = False
+492.6336 	EXP 	Line_2: autoDraw = False
+492.6336 	EXP 	Line_3: autoDraw = False
+492.6336 	EXP 	Line_4: autoDraw = False
+492.6336 	EXP 	probe: autoDraw = False
+492.6336 	EXP 	polygon: autoDraw = True
+493.6337 	EXP 	polygon: autoDraw = False
+493.6337 	EXP 	Line_1: autoDraw = True
+493.6337 	EXP 	Line_2: autoDraw = True
+493.6337 	EXP 	Line_3: autoDraw = True
+493.6337 	EXP 	Line_4: autoDraw = True
+494.6341 	EXP 	probe: autoDraw = True
+495.1370 	EXP 	New trial (rep=14, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+495.1388 	DATA 	Keypress: c
+495.1511 	EXP 	polygon: autoDraw = False
+495.1511 	EXP 	Line_1: autoDraw = False
+495.1511 	EXP 	Line_2: autoDraw = False
+495.1511 	EXP 	Line_3: autoDraw = False
+495.1511 	EXP 	Line_4: autoDraw = False
+495.1511 	EXP 	probe: autoDraw = False
+495.1511 	EXP 	polygon: autoDraw = True
+496.1512 	EXP 	polygon: autoDraw = False
+496.1512 	EXP 	Line_1: autoDraw = True
+496.1512 	EXP 	Line_2: autoDraw = True
+496.1512 	EXP 	Line_3: autoDraw = True
+496.1512 	EXP 	Line_4: autoDraw = True
+497.1515 	EXP 	probe: autoDraw = True
+497.6378 	DATA 	Keypress: z
+497.6556 	EXP 	New trial (rep=15, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+497.6683 	EXP 	polygon: autoDraw = False
+497.6683 	EXP 	Line_1: autoDraw = False
+497.6683 	EXP 	Line_2: autoDraw = False
+497.6683 	EXP 	Line_3: autoDraw = False
+497.6683 	EXP 	Line_4: autoDraw = False
+497.6683 	EXP 	probe: autoDraw = False
+497.6683 	EXP 	polygon: autoDraw = True
+498.6688 	EXP 	polygon: autoDraw = False
+498.6688 	EXP 	Line_1: autoDraw = True
+498.6688 	EXP 	Line_2: autoDraw = True
+498.6688 	EXP 	Line_3: autoDraw = True
+498.6688 	EXP 	Line_4: autoDraw = True
+499.6689 	EXP 	probe: autoDraw = True
+499.9882 	EXP 	New trial (rep=15, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+499.9900 	DATA 	Keypress: x
+500.0023 	EXP 	polygon: autoDraw = False
+500.0023 	EXP 	Line_1: autoDraw = False
+500.0023 	EXP 	Line_2: autoDraw = False
+500.0023 	EXP 	Line_3: autoDraw = False
+500.0023 	EXP 	Line_4: autoDraw = False
+500.0023 	EXP 	probe: autoDraw = False
+500.0023 	EXP 	polygon: autoDraw = True
+501.0026 	EXP 	polygon: autoDraw = False
+501.0026 	EXP 	Line_1: autoDraw = True
+501.0026 	EXP 	Line_2: autoDraw = True
+501.0026 	EXP 	Line_3: autoDraw = True
+501.0026 	EXP 	Line_4: autoDraw = True
+502.0029 	EXP 	probe: autoDraw = True
+502.3222 	EXP 	New trial (rep=15, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+502.3240 	DATA 	Keypress: y
+502.3363 	EXP 	polygon: autoDraw = False
+502.3363 	EXP 	Line_1: autoDraw = False
+502.3363 	EXP 	Line_2: autoDraw = False
+502.3363 	EXP 	Line_3: autoDraw = False
+502.3363 	EXP 	Line_4: autoDraw = False
+502.3363 	EXP 	probe: autoDraw = False
+502.3363 	EXP 	polygon: autoDraw = True
+503.3369 	EXP 	polygon: autoDraw = False
+503.3369 	EXP 	Line_1: autoDraw = True
+503.3369 	EXP 	Line_2: autoDraw = True
+503.3369 	EXP 	Line_3: autoDraw = True
+503.3369 	EXP 	Line_4: autoDraw = True
+504.3371 	EXP 	probe: autoDraw = True
+504.6741 	DATA 	Keypress: c
+504.6895 	EXP 	New trial (rep=15, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+504.7038 	EXP 	polygon: autoDraw = False
+504.7038 	EXP 	Line_1: autoDraw = False
+504.7038 	EXP 	Line_2: autoDraw = False
+504.7038 	EXP 	Line_3: autoDraw = False
+504.7038 	EXP 	Line_4: autoDraw = False
+504.7038 	EXP 	probe: autoDraw = False
+504.7038 	EXP 	polygon: autoDraw = True
+505.7040 	EXP 	polygon: autoDraw = False
+505.7040 	EXP 	Line_1: autoDraw = True
+505.7040 	EXP 	Line_2: autoDraw = True
+505.7040 	EXP 	Line_3: autoDraw = True
+505.7040 	EXP 	Line_4: autoDraw = True
+506.7044 	EXP 	probe: autoDraw = True
+507.0074 	EXP 	New trial (rep=16, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+507.0095 	DATA 	Keypress: z
+507.0213 	EXP 	polygon: autoDraw = False
+507.0213 	EXP 	Line_1: autoDraw = False
+507.0213 	EXP 	Line_2: autoDraw = False
+507.0213 	EXP 	Line_3: autoDraw = False
+507.0213 	EXP 	Line_4: autoDraw = False
+507.0213 	EXP 	probe: autoDraw = False
+507.0213 	EXP 	polygon: autoDraw = True
+508.0216 	EXP 	polygon: autoDraw = False
+508.0216 	EXP 	Line_1: autoDraw = True
+508.0216 	EXP 	Line_2: autoDraw = True
+508.0216 	EXP 	Line_3: autoDraw = True
+508.0216 	EXP 	Line_4: autoDraw = True
+509.0222 	EXP 	probe: autoDraw = True
+509.3416 	EXP 	New trial (rep=16, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+509.3435 	DATA 	Keypress: x
+509.3553 	EXP 	polygon: autoDraw = False
+509.3553 	EXP 	Line_1: autoDraw = False
+509.3553 	EXP 	Line_2: autoDraw = False
+509.3553 	EXP 	Line_3: autoDraw = False
+509.3553 	EXP 	Line_4: autoDraw = False
+509.3553 	EXP 	probe: autoDraw = False
+509.3553 	EXP 	polygon: autoDraw = True
+510.3556 	EXP 	polygon: autoDraw = False
+510.3556 	EXP 	Line_1: autoDraw = True
+510.3556 	EXP 	Line_2: autoDraw = True
+510.3556 	EXP 	Line_3: autoDraw = True
+510.3556 	EXP 	Line_4: autoDraw = True
+511.3559 	EXP 	probe: autoDraw = True
+511.6754 	EXP 	New trial (rep=16, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+511.6773 	DATA 	Keypress: y
+511.6894 	EXP 	polygon: autoDraw = False
+511.6894 	EXP 	Line_1: autoDraw = False
+511.6894 	EXP 	Line_2: autoDraw = False
+511.6894 	EXP 	Line_3: autoDraw = False
+511.6894 	EXP 	Line_4: autoDraw = False
+511.6894 	EXP 	probe: autoDraw = False
+511.6894 	EXP 	polygon: autoDraw = True
+512.6895 	EXP 	polygon: autoDraw = False
+512.6895 	EXP 	Line_1: autoDraw = True
+512.6895 	EXP 	Line_2: autoDraw = True
+512.6895 	EXP 	Line_3: autoDraw = True
+512.6895 	EXP 	Line_4: autoDraw = True
+513.6897 	EXP 	probe: autoDraw = True
+513.9254 	EXP 	New trial (rep=16, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+513.9272 	DATA 	Keypress: c
+513.9397 	EXP 	polygon: autoDraw = False
+513.9397 	EXP 	Line_1: autoDraw = False
+513.9397 	EXP 	Line_2: autoDraw = False
+513.9397 	EXP 	Line_3: autoDraw = False
+513.9397 	EXP 	Line_4: autoDraw = False
+513.9397 	EXP 	probe: autoDraw = False
+513.9397 	EXP 	polygon: autoDraw = True
+514.9402 	EXP 	polygon: autoDraw = False
+514.9402 	EXP 	Line_1: autoDraw = True
+514.9402 	EXP 	Line_2: autoDraw = True
+514.9402 	EXP 	Line_3: autoDraw = True
+514.9402 	EXP 	Line_4: autoDraw = True
+515.9404 	EXP 	probe: autoDraw = True
+516.2763 	EXP 	New trial (rep=17, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+516.2781 	DATA 	Keypress: z
+516.2906 	EXP 	polygon: autoDraw = False
+516.2906 	EXP 	Line_1: autoDraw = False
+516.2906 	EXP 	Line_2: autoDraw = False
+516.2906 	EXP 	Line_3: autoDraw = False
+516.2906 	EXP 	Line_4: autoDraw = False
+516.2906 	EXP 	probe: autoDraw = False
+516.2906 	EXP 	polygon: autoDraw = True
+517.2908 	EXP 	polygon: autoDraw = False
+517.2908 	EXP 	Line_1: autoDraw = True
+517.2908 	EXP 	Line_2: autoDraw = True
+517.2908 	EXP 	Line_3: autoDraw = True
+517.2908 	EXP 	Line_4: autoDraw = True
+518.2912 	EXP 	probe: autoDraw = True
+518.7938 	EXP 	New trial (rep=17, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+518.7956 	DATA 	Keypress: x
+518.8080 	EXP 	polygon: autoDraw = False
+518.8080 	EXP 	Line_1: autoDraw = False
+518.8080 	EXP 	Line_2: autoDraw = False
+518.8080 	EXP 	Line_3: autoDraw = False
+518.8080 	EXP 	Line_4: autoDraw = False
+518.8080 	EXP 	probe: autoDraw = False
+518.8080 	EXP 	polygon: autoDraw = True
+519.8085 	EXP 	polygon: autoDraw = False
+519.8085 	EXP 	Line_1: autoDraw = True
+519.8085 	EXP 	Line_2: autoDraw = True
+519.8085 	EXP 	Line_3: autoDraw = True
+519.8085 	EXP 	Line_4: autoDraw = True
+520.8090 	EXP 	probe: autoDraw = True
+521.2972 	EXP 	New trial (rep=17, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+521.2994 	DATA 	Keypress: y
+521.3092 	EXP 	polygon: autoDraw = False
+521.3092 	EXP 	Line_1: autoDraw = False
+521.3092 	EXP 	Line_2: autoDraw = False
+521.3092 	EXP 	Line_3: autoDraw = False
+521.3092 	EXP 	Line_4: autoDraw = False
+521.3092 	EXP 	probe: autoDraw = False
+521.3092 	EXP 	polygon: autoDraw = True
+522.3095 	EXP 	polygon: autoDraw = False
+522.3095 	EXP 	Line_1: autoDraw = True
+522.3095 	EXP 	Line_2: autoDraw = True
+522.3095 	EXP 	Line_3: autoDraw = True
+522.3095 	EXP 	Line_4: autoDraw = True
+523.3092 	EXP 	probe: autoDraw = True
+523.6617 	EXP 	New trial (rep=17, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+523.6635 	DATA 	Keypress: c
+523.6764 	EXP 	polygon: autoDraw = False
+523.6764 	EXP 	Line_1: autoDraw = False
+523.6764 	EXP 	Line_2: autoDraw = False
+523.6764 	EXP 	Line_3: autoDraw = False
+523.6764 	EXP 	Line_4: autoDraw = False
+523.6764 	EXP 	probe: autoDraw = False
+523.6764 	EXP 	polygon: autoDraw = True
+524.6766 	EXP 	polygon: autoDraw = False
+524.6766 	EXP 	Line_1: autoDraw = True
+524.6766 	EXP 	Line_2: autoDraw = True
+524.6766 	EXP 	Line_3: autoDraw = True
+524.6766 	EXP 	Line_4: autoDraw = True
+525.6768 	EXP 	probe: autoDraw = True
+525.9960 	EXP 	New trial (rep=18, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+525.9978 	DATA 	Keypress: z
+526.0102 	EXP 	polygon: autoDraw = False
+526.0102 	EXP 	Line_1: autoDraw = False
+526.0102 	EXP 	Line_2: autoDraw = False
+526.0102 	EXP 	Line_3: autoDraw = False
+526.0102 	EXP 	Line_4: autoDraw = False
+526.0102 	EXP 	probe: autoDraw = False
+526.0102 	EXP 	polygon: autoDraw = True
+527.0104 	EXP 	polygon: autoDraw = False
+527.0104 	EXP 	Line_1: autoDraw = True
+527.0104 	EXP 	Line_2: autoDraw = True
+527.0104 	EXP 	Line_3: autoDraw = True
+527.0104 	EXP 	Line_4: autoDraw = True
+528.0109 	EXP 	probe: autoDraw = True
+528.3311 	DATA 	Keypress: x
+528.3468 	EXP 	New trial (rep=18, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+528.3610 	EXP 	polygon: autoDraw = False
+528.3610 	EXP 	Line_1: autoDraw = False
+528.3610 	EXP 	Line_2: autoDraw = False
+528.3610 	EXP 	Line_3: autoDraw = False
+528.3610 	EXP 	Line_4: autoDraw = False
+528.3610 	EXP 	probe: autoDraw = False
+528.3610 	EXP 	polygon: autoDraw = True
+529.3614 	EXP 	polygon: autoDraw = False
+529.3614 	EXP 	Line_1: autoDraw = True
+529.3614 	EXP 	Line_2: autoDraw = True
+529.3614 	EXP 	Line_3: autoDraw = True
+529.3614 	EXP 	Line_4: autoDraw = True
+530.3617 	EXP 	probe: autoDraw = True
+530.7975 	EXP 	New trial (rep=18, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+530.7994 	DATA 	Keypress: y
+530.8118 	EXP 	polygon: autoDraw = False
+530.8118 	EXP 	Line_1: autoDraw = False
+530.8118 	EXP 	Line_2: autoDraw = False
+530.8118 	EXP 	Line_3: autoDraw = False
+530.8118 	EXP 	Line_4: autoDraw = False
+530.8118 	EXP 	probe: autoDraw = False
+530.8118 	EXP 	polygon: autoDraw = True
+531.8119 	EXP 	polygon: autoDraw = False
+531.8119 	EXP 	Line_1: autoDraw = True
+531.8119 	EXP 	Line_2: autoDraw = True
+531.8119 	EXP 	Line_3: autoDraw = True
+531.8119 	EXP 	Line_4: autoDraw = True
+532.8123 	EXP 	probe: autoDraw = True
+533.0815 	EXP 	New trial (rep=18, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+533.0833 	DATA 	Keypress: c
+533.0957 	EXP 	polygon: autoDraw = False
+533.0957 	EXP 	Line_1: autoDraw = False
+533.0957 	EXP 	Line_2: autoDraw = False
+533.0957 	EXP 	Line_3: autoDraw = False
+533.0957 	EXP 	Line_4: autoDraw = False
+533.0957 	EXP 	probe: autoDraw = False
+533.0957 	EXP 	polygon: autoDraw = True
+534.0961 	EXP 	polygon: autoDraw = False
+534.0961 	EXP 	Line_1: autoDraw = True
+534.0961 	EXP 	Line_2: autoDraw = True
+534.0961 	EXP 	Line_3: autoDraw = True
+534.0961 	EXP 	Line_4: autoDraw = True
+535.0963 	EXP 	probe: autoDraw = True
+535.4322 	EXP 	New trial (rep=19, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+535.4340 	DATA 	Keypress: z
+535.4466 	EXP 	polygon: autoDraw = False
+535.4466 	EXP 	Line_1: autoDraw = False
+535.4466 	EXP 	Line_2: autoDraw = False
+535.4466 	EXP 	Line_3: autoDraw = False
+535.4466 	EXP 	Line_4: autoDraw = False
+535.4466 	EXP 	probe: autoDraw = False
+535.4466 	EXP 	polygon: autoDraw = True
+536.4466 	EXP 	polygon: autoDraw = False
+536.4466 	EXP 	Line_1: autoDraw = True
+536.4466 	EXP 	Line_2: autoDraw = True
+536.4466 	EXP 	Line_3: autoDraw = True
+536.4466 	EXP 	Line_4: autoDraw = True
+537.4470 	EXP 	probe: autoDraw = True
+537.7499 	EXP 	New trial (rep=19, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+537.7517 	DATA 	Keypress: x
+537.7638 	EXP 	polygon: autoDraw = False
+537.7638 	EXP 	Line_1: autoDraw = False
+537.7638 	EXP 	Line_2: autoDraw = False
+537.7638 	EXP 	Line_3: autoDraw = False
+537.7638 	EXP 	Line_4: autoDraw = False
+537.7638 	EXP 	probe: autoDraw = False
+537.7638 	EXP 	polygon: autoDraw = True
+538.7639 	EXP 	polygon: autoDraw = False
+538.7639 	EXP 	Line_1: autoDraw = True
+538.7639 	EXP 	Line_2: autoDraw = True
+538.7639 	EXP 	Line_3: autoDraw = True
+538.7639 	EXP 	Line_4: autoDraw = True
+539.7650 	EXP 	probe: autoDraw = True
+540.0834 	EXP 	New trial (rep=19, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+540.0852 	DATA 	Keypress: y
+540.0977 	EXP 	polygon: autoDraw = False
+540.0977 	EXP 	Line_1: autoDraw = False
+540.0977 	EXP 	Line_2: autoDraw = False
+540.0977 	EXP 	Line_3: autoDraw = False
+540.0977 	EXP 	Line_4: autoDraw = False
+540.0977 	EXP 	probe: autoDraw = False
+540.0977 	EXP 	polygon: autoDraw = True
+541.0980 	EXP 	polygon: autoDraw = False
+541.0980 	EXP 	Line_1: autoDraw = True
+541.0980 	EXP 	Line_2: autoDraw = True
+541.0980 	EXP 	Line_3: autoDraw = True
+541.0980 	EXP 	Line_4: autoDraw = True
+542.0985 	EXP 	probe: autoDraw = True
+542.4021 	DATA 	Keypress: c
+542.4179 	EXP 	New trial (rep=19, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+542.4325 	EXP 	polygon: autoDraw = False
+542.4325 	EXP 	Line_1: autoDraw = False
+542.4325 	EXP 	Line_2: autoDraw = False
+542.4325 	EXP 	Line_3: autoDraw = False
+542.4325 	EXP 	Line_4: autoDraw = False
+542.4325 	EXP 	probe: autoDraw = False
+542.4325 	EXP 	polygon: autoDraw = True
+543.4321 	EXP 	polygon: autoDraw = False
+543.4321 	EXP 	Line_1: autoDraw = True
+543.4321 	EXP 	Line_2: autoDraw = True
+543.4321 	EXP 	Line_3: autoDraw = True
+543.4321 	EXP 	Line_4: autoDraw = True
+544.4324 	EXP 	probe: autoDraw = True
+544.7350 	EXP 	New trial (rep=20, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+544.7367 	DATA 	Keypress: z
+544.7494 	EXP 	polygon: autoDraw = False
+544.7494 	EXP 	Line_1: autoDraw = False
+544.7494 	EXP 	Line_2: autoDraw = False
+544.7494 	EXP 	Line_3: autoDraw = False
+544.7494 	EXP 	Line_4: autoDraw = False
+544.7494 	EXP 	probe: autoDraw = False
+544.7494 	EXP 	polygon: autoDraw = True
+545.7494 	EXP 	polygon: autoDraw = False
+545.7494 	EXP 	Line_1: autoDraw = True
+545.7494 	EXP 	Line_2: autoDraw = True
+545.7494 	EXP 	Line_3: autoDraw = True
+545.7494 	EXP 	Line_4: autoDraw = True
+546.7499 	EXP 	probe: autoDraw = True
+547.0365 	DATA 	Keypress: x
+547.0522 	EXP 	New trial (rep=20, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+547.0669 	EXP 	polygon: autoDraw = False
+547.0669 	EXP 	Line_1: autoDraw = False
+547.0669 	EXP 	Line_2: autoDraw = False
+547.0669 	EXP 	Line_3: autoDraw = False
+547.0669 	EXP 	Line_4: autoDraw = False
+547.0669 	EXP 	probe: autoDraw = False
+547.0669 	EXP 	polygon: autoDraw = True
+548.0503 	EXP 	Line_1: autoDraw = True
+548.0503 	EXP 	Line_2: autoDraw = True
+548.0503 	EXP 	Line_3: autoDraw = True
+548.0503 	EXP 	Line_4: autoDraw = True
+548.0672 	EXP 	polygon: autoDraw = False
+549.0509 	EXP 	probe: autoDraw = True
+549.3533 	EXP 	New trial (rep=20, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+549.3552 	DATA 	Keypress: y
+549.3674 	EXP 	polygon: autoDraw = False
+549.3674 	EXP 	Line_1: autoDraw = False
+549.3674 	EXP 	Line_2: autoDraw = False
+549.3674 	EXP 	Line_3: autoDraw = False
+549.3674 	EXP 	Line_4: autoDraw = False
+549.3674 	EXP 	probe: autoDraw = False
+549.3674 	EXP 	polygon: autoDraw = True
+550.3676 	EXP 	polygon: autoDraw = False
+550.3676 	EXP 	Line_1: autoDraw = True
+550.3676 	EXP 	Line_2: autoDraw = True
+550.3676 	EXP 	Line_3: autoDraw = True
+550.3676 	EXP 	Line_4: autoDraw = True
+551.3679 	EXP 	probe: autoDraw = True
+551.6540 	EXP 	New trial (rep=20, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+551.6559 	DATA 	Keypress: c
+551.6680 	EXP 	polygon: autoDraw = False
+551.6680 	EXP 	Line_1: autoDraw = False
+551.6680 	EXP 	Line_2: autoDraw = False
+551.6680 	EXP 	Line_3: autoDraw = False
+551.6680 	EXP 	Line_4: autoDraw = False
+551.6680 	EXP 	probe: autoDraw = False
+551.6680 	EXP 	polygon: autoDraw = True
+552.6686 	EXP 	polygon: autoDraw = False
+552.6686 	EXP 	Line_1: autoDraw = True
+552.6686 	EXP 	Line_2: autoDraw = True
+552.6686 	EXP 	Line_3: autoDraw = True
+552.6686 	EXP 	Line_4: autoDraw = True
+553.6686 	EXP 	probe: autoDraw = True
+554.0544 	EXP 	New trial (rep=21, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+554.0562 	DATA 	Keypress: z
+554.0686 	EXP 	polygon: autoDraw = False
+554.0686 	EXP 	Line_1: autoDraw = False
+554.0686 	EXP 	Line_2: autoDraw = False
+554.0686 	EXP 	Line_3: autoDraw = False
+554.0686 	EXP 	Line_4: autoDraw = False
+554.0686 	EXP 	probe: autoDraw = False
+554.0686 	EXP 	polygon: autoDraw = True
+555.0691 	EXP 	polygon: autoDraw = False
+555.0691 	EXP 	Line_1: autoDraw = True
+555.0691 	EXP 	Line_2: autoDraw = True
+555.0691 	EXP 	Line_3: autoDraw = True
+555.0691 	EXP 	Line_4: autoDraw = True
+556.0693 	EXP 	probe: autoDraw = True
+556.5057 	DATA 	Keypress: x
+556.5218 	EXP 	New trial (rep=21, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+556.5360 	EXP 	polygon: autoDraw = False
+556.5360 	EXP 	Line_1: autoDraw = False
+556.5360 	EXP 	Line_2: autoDraw = False
+556.5360 	EXP 	Line_3: autoDraw = False
+556.5360 	EXP 	Line_4: autoDraw = False
+556.5360 	EXP 	probe: autoDraw = False
+556.5360 	EXP 	polygon: autoDraw = True
+557.5367 	EXP 	polygon: autoDraw = False
+557.5367 	EXP 	Line_1: autoDraw = True
+557.5367 	EXP 	Line_2: autoDraw = True
+557.5367 	EXP 	Line_3: autoDraw = True
+557.5367 	EXP 	Line_4: autoDraw = True
+558.5369 	EXP 	probe: autoDraw = True
+558.9229 	EXP 	New trial (rep=21, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+558.9248 	DATA 	Keypress: y
+558.9369 	EXP 	polygon: autoDraw = False
+558.9369 	EXP 	Line_1: autoDraw = False
+558.9369 	EXP 	Line_2: autoDraw = False
+558.9369 	EXP 	Line_3: autoDraw = False
+558.9369 	EXP 	Line_4: autoDraw = False
+558.9369 	EXP 	probe: autoDraw = False
+558.9369 	EXP 	polygon: autoDraw = True
+559.9373 	EXP 	polygon: autoDraw = False
+559.9373 	EXP 	Line_1: autoDraw = True
+559.9373 	EXP 	Line_2: autoDraw = True
+559.9373 	EXP 	Line_3: autoDraw = True
+559.9373 	EXP 	Line_4: autoDraw = True
+560.9375 	EXP 	probe: autoDraw = True
+561.2738 	EXP 	New trial (rep=21, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+561.2756 	DATA 	Keypress: c
+561.2876 	EXP 	polygon: autoDraw = False
+561.2876 	EXP 	Line_1: autoDraw = False
+561.2876 	EXP 	Line_2: autoDraw = False
+561.2876 	EXP 	Line_3: autoDraw = False
+561.2876 	EXP 	Line_4: autoDraw = False
+561.2876 	EXP 	probe: autoDraw = False
+561.2876 	EXP 	polygon: autoDraw = True
+562.2878 	EXP 	polygon: autoDraw = False
+562.2878 	EXP 	Line_1: autoDraw = True
+562.2878 	EXP 	Line_2: autoDraw = True
+562.2878 	EXP 	Line_3: autoDraw = True
+562.2878 	EXP 	Line_4: autoDraw = True
+563.2882 	EXP 	probe: autoDraw = True
+563.7408 	EXP 	New trial (rep=22, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+563.7427 	DATA 	Keypress: z
+563.7550 	EXP 	polygon: autoDraw = False
+563.7550 	EXP 	Line_1: autoDraw = False
+563.7550 	EXP 	Line_2: autoDraw = False
+563.7550 	EXP 	Line_3: autoDraw = False
+563.7550 	EXP 	Line_4: autoDraw = False
+563.7550 	EXP 	probe: autoDraw = False
+563.7550 	EXP 	polygon: autoDraw = True
+564.7558 	EXP 	polygon: autoDraw = False
+564.7558 	EXP 	Line_1: autoDraw = True
+564.7558 	EXP 	Line_2: autoDraw = True
+564.7558 	EXP 	Line_3: autoDraw = True
+564.7558 	EXP 	Line_4: autoDraw = True
+565.7556 	EXP 	probe: autoDraw = True
+566.3250 	EXP 	New trial (rep=22, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+566.3268 	DATA 	Keypress: x
+566.3392 	EXP 	polygon: autoDraw = False
+566.3392 	EXP 	Line_1: autoDraw = False
+566.3392 	EXP 	Line_2: autoDraw = False
+566.3392 	EXP 	Line_3: autoDraw = False
+566.3392 	EXP 	Line_4: autoDraw = False
+566.3392 	EXP 	probe: autoDraw = False
+566.3392 	EXP 	polygon: autoDraw = True
+567.3399 	EXP 	polygon: autoDraw = False
+567.3399 	EXP 	Line_1: autoDraw = True
+567.3399 	EXP 	Line_2: autoDraw = True
+567.3399 	EXP 	Line_3: autoDraw = True
+567.3399 	EXP 	Line_4: autoDraw = True
+568.3396 	EXP 	probe: autoDraw = True
+568.5931 	EXP 	New trial (rep=22, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+568.5954 	DATA 	Keypress: y
+568.6064 	EXP 	polygon: autoDraw = False
+568.6064 	EXP 	Line_1: autoDraw = False
+568.6064 	EXP 	Line_2: autoDraw = False
+568.6064 	EXP 	Line_3: autoDraw = False
+568.6064 	EXP 	Line_4: autoDraw = False
+568.6064 	EXP 	probe: autoDraw = False
+568.6064 	EXP 	polygon: autoDraw = True
+569.6071 	EXP 	polygon: autoDraw = False
+569.6071 	EXP 	Line_1: autoDraw = True
+569.6071 	EXP 	Line_2: autoDraw = True
+569.6071 	EXP 	Line_3: autoDraw = True
+569.6071 	EXP 	Line_4: autoDraw = True
+570.6073 	EXP 	probe: autoDraw = True
+571.0430 	EXP 	New trial (rep=22, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+571.0449 	DATA 	Keypress: c
+571.0574 	EXP 	polygon: autoDraw = False
+571.0574 	EXP 	Line_1: autoDraw = False
+571.0574 	EXP 	Line_2: autoDraw = False
+571.0574 	EXP 	Line_3: autoDraw = False
+571.0574 	EXP 	Line_4: autoDraw = False
+571.0574 	EXP 	probe: autoDraw = False
+571.0574 	EXP 	polygon: autoDraw = True
+572.0573 	EXP 	polygon: autoDraw = False
+572.0573 	EXP 	Line_1: autoDraw = True
+572.0573 	EXP 	Line_2: autoDraw = True
+572.0573 	EXP 	Line_3: autoDraw = True
+572.0573 	EXP 	Line_4: autoDraw = True
+573.0579 	EXP 	probe: autoDraw = True
+573.3773 	EXP 	New trial (rep=23, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+573.3791 	DATA 	Keypress: z
+573.3912 	EXP 	polygon: autoDraw = False
+573.3912 	EXP 	Line_1: autoDraw = False
+573.3912 	EXP 	Line_2: autoDraw = False
+573.3912 	EXP 	Line_3: autoDraw = False
+573.3912 	EXP 	Line_4: autoDraw = False
+573.3912 	EXP 	probe: autoDraw = False
+573.3912 	EXP 	polygon: autoDraw = True
+574.3913 	EXP 	polygon: autoDraw = False
+574.3913 	EXP 	Line_1: autoDraw = True
+574.3913 	EXP 	Line_2: autoDraw = True
+574.3913 	EXP 	Line_3: autoDraw = True
+574.3913 	EXP 	Line_4: autoDraw = True
+575.3918 	EXP 	probe: autoDraw = True
+575.6106 	EXP 	New trial (rep=23, index=1): OrderedDict([('pos', 150), ('corr_resp', 'y')])
+575.6126 	DATA 	Keypress: x
+575.6251 	EXP 	polygon: autoDraw = False
+575.6251 	EXP 	Line_1: autoDraw = False
+575.6251 	EXP 	Line_2: autoDraw = False
+575.6251 	EXP 	Line_3: autoDraw = False
+575.6251 	EXP 	Line_4: autoDraw = False
+575.6251 	EXP 	probe: autoDraw = False
+575.6251 	EXP 	polygon: autoDraw = True
+576.6253 	EXP 	polygon: autoDraw = False
+576.6253 	EXP 	Line_1: autoDraw = True
+576.6253 	EXP 	Line_2: autoDraw = True
+576.6253 	EXP 	Line_3: autoDraw = True
+576.6253 	EXP 	Line_4: autoDraw = True
+577.6097 	EXP 	probe: autoDraw = True
+577.8783 	EXP 	New trial (rep=23, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+577.8802 	DATA 	Keypress: y
+577.8925 	EXP 	polygon: autoDraw = False
+577.8925 	EXP 	Line_1: autoDraw = False
+577.8925 	EXP 	Line_2: autoDraw = False
+577.8925 	EXP 	Line_3: autoDraw = False
+577.8925 	EXP 	Line_4: autoDraw = False
+577.8925 	EXP 	probe: autoDraw = False
+577.8925 	EXP 	polygon: autoDraw = True
+578.8931 	EXP 	polygon: autoDraw = False
+578.8931 	EXP 	Line_1: autoDraw = True
+578.8931 	EXP 	Line_2: autoDraw = True
+578.8931 	EXP 	Line_3: autoDraw = True
+578.8931 	EXP 	Line_4: autoDraw = True
+579.8931 	EXP 	probe: autoDraw = True
+580.1790 	EXP 	New trial (rep=23, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+580.1808 	DATA 	Keypress: c
+580.1932 	EXP 	polygon: autoDraw = False
+580.1932 	EXP 	Line_1: autoDraw = False
+580.1932 	EXP 	Line_2: autoDraw = False
+580.1932 	EXP 	Line_3: autoDraw = False
+580.1932 	EXP 	Line_4: autoDraw = False
+580.1932 	EXP 	probe: autoDraw = False
+580.1932 	EXP 	polygon: autoDraw = True
+581.1934 	EXP 	polygon: autoDraw = False
+581.1934 	EXP 	Line_1: autoDraw = True
+581.1934 	EXP 	Line_2: autoDraw = True
+581.1934 	EXP 	Line_3: autoDraw = True
+581.1934 	EXP 	Line_4: autoDraw = True
+582.1940 	EXP 	probe: autoDraw = True
+582.5465 	DATA 	Keypress: z
+582.5610 	EXP 	polygon: autoDraw = False
+582.5610 	EXP 	Line_1: autoDraw = False
+582.5610 	EXP 	Line_2: autoDraw = False
+582.5610 	EXP 	Line_3: autoDraw = False
+582.5610 	EXP 	Line_4: autoDraw = False
+582.5610 	EXP 	probe: autoDraw = False
+582.9577 	EXP 	window1: mouseVisible = True
